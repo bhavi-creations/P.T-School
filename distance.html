@@ -42,6 +42,34 @@
     <link href="assets/css/style.css" rel="stylesheet" />
 
     <style>
+      .contact .info-box i {
+        font-size: 32px;
+        color: #01a084 !important;
+        border-radius: 50%;
+        padding: 8px;
+        border: 2px dotted #01a084 !important;
+      }
+      .aboutus {
+        width: 80%;
+        margin: 20px auto;
+        background: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .header {
+        text-align: center;
+        padding: 10px 0;
+        border-bottom: 1px solid #ddd;
+      }
+
+      .founder-info {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+      }
+
+   
       /* Additional styles to ensure dropdown works properly */
       .dropdown-menu {
           display: none;
@@ -93,6 +121,7 @@
         margin-top: 20px;
       }
     </style>
+     
   </head>
 
   <body>
@@ -110,24 +139,19 @@
             <li>
               <a class="nav-link scrollto" href="courses.html">Courses</a>
             </li>
- 
 
+            
             <li class="dropdown">
-              <a class="nav-link scrollto" >Applications</a>
-              <ul class="dropdown-menu">
-                  <li><a href="distance.html">Distance Education</a></li>
-                  <li><a href="english.html">English Medium Bible Training</a></li>
-                  <li><a href="telugu.html">Telugu Medium Bible Training</a></li>
-                  <li><a href="monthly.html">Monthly 5 Days Bible Training</a></li>
-                  <li><a href="calvin.html">CALVIN WOMEN Telugu Medium Bible Training </a></li>
-              </ul>
-            </li>
-
-
-
-
-            <li><a class="nav-link scrollto" href="pdf.html">PDF</a></li>
-
+                <a class="nav-link scrollto" >Applications</a>
+                <ul class="dropdown-menu">
+                    <li><a href="distance.html">Distance Education</a></li>
+                    <li><a href="english.html">English Medium Bible Training</a></li>
+                    <li><a href="telugu.html">Telugu Medium Bible Training</a></li>
+                    <li><a href="monthly.html">Monthly 5 Days Bible Training</a></li>
+                    <li><a href="calvin.html">CALVIN WOMEN Telugu Medium Bible Training </a></li>
+                </ul>
+              </li>
+  
             <li>
               <a class="nav-link scrollto" href="contact.html">Contact</a>
             </li>
@@ -149,70 +173,53 @@
       <section id="contact" class="contact">
         <div class="container">
           <div class="section-title" style="margin-top: 100px">
-            <h2>Contact</h2>
+            <h2>Application</h2>
           </div>
         </div>
 
         <div class="container mb-5">
-          <div class="row mt-5">
-            <div class="col-lg-6">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="info-box border_color_green">
-                    <i class="bx bx-map"></i>
-                    <h3>Our Address</h3>
-                    <p>
-                      NAGAR,ROAD NO.1,<br />
-                      100 BUILDING CENTER,<br />
-
-                      KAKINADA-533003 <br />
-                      Andhra Pradesh, India
-                      <br /><br />
-                    </p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="info-box mt-4">
-                    <i class="bx bx-envelope"></i>
-                    <h3>Email Us</h3>
-                    <p>sample@gmail.com</p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="info-box mt-4">
-                    <i class="bx bx-phone-call"></i>
-                    <h3>Call Us</h3>
-                    <p>+91 99999999</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-6">
+          <div class="row">
+            <div class="col-12">
               <form
-                action="contactform .php"
+                action="application.php"
                 method="post"
                 role="form"
                 class="php-email-form"
               >
-                <div class="row">
+                <h2 class="text-center mb-5">
+                  <strong>Application For Distance Education </strong>
+                </h2>
+                <div class="row mb-5">
+                  <h4 class="mb-3">
+                    <strong>Student   Information</strong>
+                  </h4>
                   <div class="col-md-6 form-group">
                     <input
                       type="text"
-                      name="contactname"
+                      name="FullName"
                       class="form-control"
                       id="name"
-                      placeholder="Your Name"
+                      placeholder="Full Name"
                       required=""
                     />
                   </div>
-                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <div class="col-md-6 form-group">
                     <input
-                      type="email"
+                      type="text"
+                      name="Admission"
                       class="form-control"
-                      name="contactemail"
+                      id="name"
+                      placeholder="Admission  In  (January/August)"
+                      required=""
+                    />
+                  </div>
+                  <div class="col-md-6 form-group mt-3  ">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="DateOfBirth"
                       id="email"
-                      placeholder="Your Email"
+                      placeholder="Date Of Birth"
                       required=""
                     />
                   </div>
@@ -221,31 +228,107 @@
                     <input
                       type="text"
                       class="form-control"
-                      name="contactSubject"
+                      name="Gender"
                       id="subject"
-                      placeholder="Subject"
+                      placeholder="Gender"
                     />
                   </div>
                   <div class="col-md-6 form-group mt-3">
                     <input
                       type="text"
                       class="form-control"
-                      name="contactnumber"
-                      id="number"
-                      placeholder="Phone"
-                      required=""
+                      name="FatherName"
+                      id="subject"
+                      placeholder="Father Name"
                     />
                   </div>
+                  <div class="col-md-6 form-group mt-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="Married/Unmarried"
+                      id="subject"
+                      placeholder="Married/Unmarried"
+                    />
+                  </div>
+                  <div class="col-md-6 form-group mt-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="Husband/WifeName"
+                      id="subject"
+                      placeholder="Husband/Wife Name   (if Married)"
+                    />
+                  </div>
+                  <div class="col-md-6 form-group mt-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="EducationalQualification"
+                      id="subject"
+                      placeholder="Educational Qualification"
+                    />
+                  </div>
+                  <div class="col-md-6 form-group mt-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="Profession"
+                      id="subject"
+                      placeholder="Profession"
+                    />
+                  </div> 
+                  <div class="col-md-6 form-group mt-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="AdharNumber"
+                      id="subject"
+                      placeholder="Adhar Number"
+                    />
+                  </div>
+                  <div class="col-md-6 form-group mt-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="Phone"
+                      id="subject"
+                      placeholder="Phone"
+                    />
+                  </div>
+                  <div class="col-md-6 form-group mt-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="Baptism"
+                      id="subject"
+                      placeholder="Baptism YES/NO"
+                    />
+                  </div>
+                  <div class="col-md-6 form-group mt-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="Denomination"
+                      id="subject"
+                      placeholder="Which Denomination"
+                    />
+                  </div>
+                  <div class="col-md-6 form-group mt-3">
+                    <textarea
+                      class="form-control"
+                      name="Address"
+                      rows="1"
+                      placeholder="Address: D.no, Street, City, Mandal, Dist, State.."
+                      required=""
+                    ></textarea>
+                  </div>
                 </div>
-                <div class="form-group mt-3">
-                  <textarea
-                    class="form-control"
-                    name="contactmessage"
-                    rows="7"
-                    placeholder="Message"
-                    required=""
-                  ></textarea>
-                </div>
+ 
+
+
+
+
                 <div class="my-3">
                   <div class="loading">Loading</div>
                   <div class="error-message"></div>
@@ -259,18 +342,6 @@
               </form>
             </div>
           </div>
-        </div>
-
-        <div>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d122116.09461375879!2d82.15936822732989!3d16.968255159899414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3a382971e3b046d5%3A0x8d13ea9e32b82856!2sRainbow%20%2F%20Dr.AKR%20Tripura%20skin%20and%20cosmetology%20clinic%2C%20100%20building%2C%202-56-5%20Opposite%20Christian%20community%20hall%20Road%20no%201%2C%20centre%2C%20Shanti%20Nagar%2C%20Kakinada%2C%20Andhra%20Pradesh%20533003!3m2!1d16.9682717!2d82.24177!5e0!3m2!1sen!2sin!4v1716983106035!5m2!1sen!2sin"
-            width="100%"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
         </div>
       </section>
 

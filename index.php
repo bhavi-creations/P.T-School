@@ -1031,7 +1031,7 @@
 
 
 
-   <a href="https://api.whatsapp.com/send?phone=919493066633" style="color: #fff;" class="whatsapp-link" target="_blank">
+   <a href="https://api.whatsapp.com/send?phone=919 " style="color: #fff;" class="whatsapp-link" target="_blank">
      <i class="fab fa-whatsapp"></i>
    </a>
 
