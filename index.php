@@ -714,6 +714,7 @@
 
     
    <div class="loader">
+    
      <div>
        <ul>
          <li>
@@ -748,33 +749,10 @@
          </li>
        </ul>
      </div>
-
-     <button onclick="openPdf(1)">Open PDF</button>
+ 
    </div>
 
-   <script>
-        function openPdf(id) {
-            document.getElementById('loader').style.display = 'block';
-
-            // Fetch the PDF file URL from the server
-            fetch('get_pdf.php?id=' + id)
-                .then(response => {
-                    if (response.ok) {
-                        return response.blob();
-                    }
-                    throw new Error('Network response was not ok.');
-                })
-                .then(blob => {
-                    document.getElementById('loader').style.display = 'none';
-                    const url = URL.createObjectURL(blob);
-                    window.open(url, '_blank');
-                })
-                .catch(error => {
-                    document.getElementById('loader').style.display = 'none';
-                    console.error('There was a problem with the fetch operation:', error);
-                });
-        }
-    </script>
+   
 
    <style>
      .loader {
