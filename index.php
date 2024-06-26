@@ -69,18 +69,18 @@
            <li><a class="nav-link scrollto  " href="courses.html">Courses</a></li>
 
 
-          
+
 
            <li class="dropdown">
-              <a class="nav-link scrollto" >Applications</a>
-              <ul class="dropdown-menu">
-                  <li><a href="distance.html">Distance Education</a></li>
-                  <li><a href="english.html">English Medium Bible Training</a></li>
-                  <li><a href="telugu.html">Telugu Medium Bible Training</a></li>
-                  <li><a href="monthly.html">Monthly 5 Days Bible Training</a></li>
-                  <li><a href="calvin.html">CALVIN WOMEN Telugu Medium Bible Training </a></li>
-              </ul>
-            </li>
+             <a class="nav-link scrollto">Applications</a>
+             <ul class="dropdown-menu">
+               <li><a href="distance.html">Distance Education</a></li>
+               <li><a href="english.html">English Medium Bible Training</a></li>
+               <li><a href="telugu.html">Telugu Medium Bible Training</a></li>
+               <li><a href="monthly.html">Monthly 5 Days Bible Training</a></li>
+               <li><a href="calvin.html">CALVIN WOMEN Telugu Medium Bible Training </a></li>
+             </ul>
+           </li>
 
 
 
@@ -156,10 +156,18 @@
        </div>
      </section>
      <!-- End About Us Section -->
-
-
-
-
+     <section>
+       <div class="container">
+         <div class="row">
+           <div class="col-12">
+             <video width="100%" controls>
+               <source src="assets/img/videos/WhatsApp Video 2024-06-26 at 12.58.58 PM.mp4" type="video/mp4">
+               Your browser does not support the video tag.
+             </video>
+           </div>
+         </div>
+       </div>
+     </section>
 
 
      <section class="ftco-section   new_resp  ">
@@ -726,7 +734,7 @@
    </footer>
    <!-- End Footer -->
 
-<!--     
+   <!--     
    <div class="loader">
     
      <div>
@@ -766,7 +774,7 @@
  
    </div> -->
 
-   
+
 
    <style>
      .loader {
