@@ -726,7 +726,7 @@
    </footer>
    <!-- End Footer -->
 
-    
+<!--     
    <div class="loader">
     
      <div>
@@ -764,7 +764,7 @@
        </ul>
      </div>
  
-   </div>
+   </div> -->
 
    
 
