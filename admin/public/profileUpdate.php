@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "drakrtripuramind";
-$password = "9rTHaMUNGyUaaW1";
-$dbname = "drakrtripuramindcareandpolyclinic";
+$username = "root";
+$password = "";
+$dbname = "ptschool";
 session_start();
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

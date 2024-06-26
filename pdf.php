@@ -1,3 +1,25 @@
+
+<?php
+// Database connection (replace with your actual database connection details)
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "ptschool";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+// Fetch blog data
+$sql = "SELECT * FROM blog";
+$result = $conn->query($sql);
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>

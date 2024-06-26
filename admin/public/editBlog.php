@@ -1,9 +1,9 @@
 <?php
 // Database connection (replace with your actual database connection details)
 $servername = "localhost";
-$username = "drakrtripuramind";
-$password = "9rTHaMUNGyUaaW1";
-$dbname = "drakrtripuramindcareandpolyclinic";
+$username = "root";
+$password = "";
+$dbname = "ptschool";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -187,7 +187,7 @@ $conn->close();
                     <div class="container my-auto">
                         <div class="copyright text-center my-auto">
                         <div class="footer-widget__copyright">
-              <p class="mini_text" style="color:black"> ©2024 Tripura-Mind-Care . All Rights Reserved. Designed &
+              <p class="mini_text" style="color:black"> ©2024 P.T.SCHOOL . All Rights Reserved. Designed &
                 Developed by <a href="https://bhavicreations.com/" target="_blank" style="text-decoration: none;color:black">Bhavi
                   Creations</a></p>
             </div>

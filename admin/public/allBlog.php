@@ -65,10 +65,10 @@
                     <body>
                         <div class="container">
                             <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                                <h2 class="h2 mb-0 text-info mx-2"> Published Blogs</h2>
+                                <h2 class="h2 mb-0 text-info mx-2"> Published PDF'S</h2>
                                 <a href="newBlog.php"
                                     class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-                                        class="fas fa-download fa-sm text-white-50"></i> Create Blog</a>
+                                        class="fas fa-upload fa-sm text-white-50"></i>Upload Blog</a>
 
                             </div>
 
@@ -77,9 +77,9 @@
                                 <?php
                                 // Database connection (replace with your actual database connection details)
                                 $servername = "localhost";
-                                $username = "drakrtripuramind";
-                                $password = "9rTHaMUNGyUaaW1";
-                                $dbname = "drakrtripuramindcareandpolyclinic";
+                                $username = "root";
+                                $password = "";
+                                $dbname = "ptschool";
 
                                 // Create connection
                                 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -193,7 +193,7 @@
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
                     <div class="footer-widget__copyright">
-              <p class="mini_text" style="color:black"> ©2024 Tripura-Mind-Care . All Rights Reserved. Designed &
+              <p class="mini_text" style="color:black"> ©2024 P.T.SCHOOL . All Rights Reserved. Designed &
                 Developed by <a href="https://bhavicreations.com/" target="_blank" style="text-decoration: none;color:black">Bhavi
                   Creations</a></p>
             </div>

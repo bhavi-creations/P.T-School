@@ -1,9 +1,11 @@
 <?php
 $host = 'localhost';
-$db = 'drakrtripuramindcareandpolyclinic';
-$user = 'drakrtripuramind';
-$pass = '9rTHaMUNGyUaaW1';
+$db = 'ptschool';
+$user = 'root';
+$pass = '';
 
+
+ 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
