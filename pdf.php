@@ -266,3 +266,8 @@ $pdf_result = $conn->query($pdf_sql);
 </body>
 
 </html>
+
+<?php
+// Close database connection
+$conn->close();
+?>
