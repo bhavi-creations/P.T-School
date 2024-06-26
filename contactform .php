@@ -9,7 +9,7 @@ require 'vendor/autoload.php'; // Adjust the path to autoload.php based on your 
 // Check if the form is submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Assign POST data to variables
-    $name = $_POST['contactname'] ?? '';
+    $Name = $_POST['contactname'] ?? '';
     $email = $_POST['contactemail'] ?? '';
     $subject = $_POST['contactSubject'] ?? '';
     $number = $_POST['contactnumber'] ?? '';
@@ -84,7 +84,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class='row'>
 
     <div class='col-5'>
-        <p><span class='label'>Name:</span> <span class='bottom-border'>$name</span></p>
+        <p><span class='label'>Name:</span> <span class='bottom-border'>$Name</span></p>
     </div>
     <div class='col-5'>
         <p><span class='label'>Email:</span> <span class='bottom-border'>$email</span></p>
@@ -133,7 +133,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Subject = 'New Message from Contact Form';
         $mail->Body = "
             <h1>Contact Details</h1>
-            <p><strong>Name:</strong> $name</p>
+            <p><strong>Name:</strong> $Name</p>
             <p><strong>Email:</strong> $email</p>
             <p><strong>Subject:</strong> $subject</p>
             <p><strong>Phone:</strong> $number</p>
