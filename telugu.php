@@ -6,9 +6,11 @@ use TCPDF;
 
 require 'vendor/autoload.php'; // Adjust the path to autoload.php based on your project
 // Custom TCPDF class to remove the header
-class MYPDF extends TCPDF {
+class MYPDF extends TCPDF
+{
     // Page header
-    public function Header() {
+    public function Header()
+    {
         // No header content
     }
 }
@@ -18,19 +20,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $FullName = $_POST['FullName'] ?? '';
     $Admission = $_POST['Admission'] ?? '';
     $DateOfBirth = $_POST['DateOfBirth'] ?? '';
-    $Gender = $_POST['Gender'] ?? '';
+    $age = $_POST['age'] ?? '';
     $FatherName = $_POST['FatherName'] ?? '';
     $Married = $_POST['Married'] ?? '';
-    $WifeName = $_POST['WifeName'] ?? '';
     $EducationalQualification = $_POST['EducationalQualification'] ?? '';
-    $Profession = $_POST['Profession'] ?? '';
-    $AdharNumber = $_POST['AdharNumber'] ?? '';
-    $Phone = $_POST['Phone'] ?? '';
-    $Baptism = $_POST['Baptism'] ?? '';
-    $Denomination = $_POST['Denomination'] ?? '';
+    $Occupation = $_POST['Occupation'] ?? '';
+    $churchname = $_POST['churchname'] ?? '';
+    $police = $_POST['police'] ?? '';
+    $aim = $_POST['aim'] ?? '';
     $Address = $_POST['Address'] ?? '';
 
-    
+
     // Create a new PDF document
     $pdf = new MYPDF();
     $pdf->SetCreator(PDF_CREATOR);
@@ -72,7 +72,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $pdf->Ln(2); // Adjust the space above the title here
 
     // Add the title
-    $pdf->Cell(0, 10, 'Application For Distance Education', 0, 1, 'C');
+    $pdf->Cell(0, 10, 'Application For Admission Into Telugu Medium BIBLE Training', 0, 1, 'C');
 
     // Increase space below the title
     $pdf->Ln(15); // Adjust the space below the title here
@@ -116,7 +116,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class='row'>
           <p class='details'>
             <span class='label'
-              >Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              >Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
@@ -127,6 +128,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <p class='details'>
             <span class='label'
               >Admission
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   :
@@ -139,7 +141,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <p class='details'>
             <span class='label'
               >Date Of Birth &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
               : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
             >
@@ -148,18 +151,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
           <p class='details'>
             <span class='label'
-              >Gender
+              >Age
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
             >
-            <span class='bottom-border'>$Gender</span>
+            <span class='bottom-border'>$age</span>
           </p>
 
           <p class='details'>
             <span class='label'
               >Father Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   :
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
@@ -171,25 +177,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <span class='label'
               >Married &nbsp;&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  :
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
             >
             <span class='bottom-border'>$Married</span>
           </p>
+ 
 
           <p class='details'>
             <span class='label'
-              >Husband/wife name &nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
-            >
-            <span class='bottom-border'>$WifeName</span>
-          </p>
-
-          <p class='details'>
-            <span class='label'
-              >Educational Qualification &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :
+              >Educational Qualification &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+               :
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </span>
             <span class='bottom-border'>$EducationalQualification</span>
@@ -197,64 +198,68 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
           <p class='details'>
             <span class='label'
-              >Profession
+              >Occupation
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
             >
-            <span class='bottom-border'>$Profession</span>
+            <span class='bottom-border'>$Occupation</span>
           </p>
 
           <p class='details'>
             <span class='label'
-              >AdharNumber
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              >Which Church Do You Belong
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+             
               : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
             >
-            <span class='bottom-border'>$AdharNumber</span>
+            <span class='bottom-border'>$churchname</span>
           </p>
 
           <p class='details'>
             <span class='label'
-              >Phone
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              >Involved In Police Matters
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               :
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
+            >
+            <span class='bottom-border'>$police</span>
+          </p>
+
+          <p class='details'>
+            <span class='label'
+              >Aim To Join &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
             >
-            <span class='bottom-border'>$Phone</span>
+            <span class='bottom-border'>$aim</span>
           </p>
 
-          <p class='details'>
-            <span class='label'
-              >Baptism YES/NO &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
-            >
-            <span class='bottom-border'>$Baptism</span>
-          </p>
-
-          <p class='details'>
-            <span class='label'
-              >Which Denomination
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
-            >
-            <span class='bottom-border'>$Denomination</span>
-          </p>
+          
 
           <p class='details'>
             <span class='label'
               >Address &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
             >
             <span class='bottom-border'>$Address</span>
           </p>
-        </div>
+
+          <br>
+          <br>
+          <br>
+
+          <p> <strong> NOTE: </strong> Seeking Admission Into 2 Years</p>
+          <p> <strong> NOTE: </strong> No Admission Without Original Certificates At The Time Of Admission</p>
+
+    </div>
     ";
 
     $pdf->writeHTML($html, true, false, true, false, '');
@@ -275,7 +280,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
     // Generate PDF as a string
-    $pdfString = $pdf->Output('Distance_Eduction.pdf', 'S');
+    $pdfString = $pdf->Output('Telugu_Medium_BIBLE_Training.pdf', 'S');
 
     // Create a new PHPMailer instance
     $mail = new PHPMailer(true);
@@ -295,26 +300,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->addAddress('rameshpilli1428@gmail.com', 'PT School'); // Recipient's email and name
 
         // Attach the PDF
-        $mail->addStringAttachment($pdfString, 'Distance_Eduction.pdf');
+        $mail->addStringAttachment($pdfString, 'Telugu_Medium_BIBLE_Training.pdf');
 
         // Content
         $mail->isHTML(true);
-        $mail->Subject = 'Application For Distance Education';
+        $mail->Subject = 'Application For Admission Into Telugu Medium BIBLE Training';
         $mail->Body = "
             <h1>Student Details</h1>
             <p><strong>Full Name: </strong>  $FullName</p>
             <p><strong> Admission:</strong> $Admission</p>
             <p><strong>Date Of Birth:</strong> $DateOfBirth</p>
-            <p><strong>Gender:</strong> $Gender</p>
+            <p><strong>Age:</strong> $age</p>
             <p><strong>FatherName:</strong>$FatherName</p>
             <p><strong>Married:</strong> $Married</p>
-            <p><strong>Husband/wife name:</strong>$WifeName</p>
             <p><strong>Educational Qualification:</strong> $EducationalQualification</p>
-            <p><strong>Profession:</strong> $Profession</p>
-            <p><strong>AdharNumber:</strong> $AdharNumber</p>
-            <p><strong>Phone:</strong> $Phone</p>
-            <p><strong>Baptism YES/NO:</strong> $Baptism</p>
-            <p><strong>Which Denomination:</strong> $Denomination</p>
+            <p><strong>Occupation:</strong> $Occupation</p>
+            <p><strong>Which Church Do You Belong:</strong> $churchname</p>
+            <p><strong>Involved In Police Matters:</strong> $police</p>
+            <p><strong>Aim To Join :</strong> $aim</p>          
             <p><strong>Address:</strong> $Address</p>
         ";
 

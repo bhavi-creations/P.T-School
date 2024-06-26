@@ -69,31 +69,30 @@
         margin-top: 20px;
       }
 
-   
       /* Additional styles to ensure dropdown works properly */
       .dropdown-menu {
-          display: none;
-          position: absolute;
-          background-color: #fff;
-          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-          z-index: 1;
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
       }
-      
+
       .dropdown:hover .dropdown-menu {
-          display: block;
+        display: block;
       }
-      
+
       .dropdown-menu a {
-          color: black;
-          padding: 12px 16px;
-          text-decoration: none;
-          display: block;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
       }
-      
+
       .dropdown-menu a:hover {
-          background-color: #ddd;
+        background-color: #ddd;
       }
- 
+
       .contact .info-box i {
         font-size: 32px;
         color: #01a084 !important;
@@ -121,7 +120,6 @@
         margin-top: 20px;
       }
     </style>
-     
   </head>
 
   <body>
@@ -140,18 +138,25 @@
               <a class="nav-link scrollto" href="courses.html">Courses</a>
             </li>
 
-            
             <li class="dropdown">
-                <a class="nav-link scrollto" >Applications</a>
-                <ul class="dropdown-menu">
-                    <li><a href="distance.html">Distance Education</a></li>
-                    <li><a href="english.html">English Medium Bible Training</a></li>
-                    <li><a href="telugu.html">Telugu Medium Bible Training</a></li>
-                    <li><a href="monthly.html">Monthly 5 Days Bible Training</a></li>
-                    <li><a href="calvin.html">CALVIN WOMEN Telugu Medium Bible Training </a></li>
-                </ul>
-              </li>
-  
+              <a class="nav-link scrollto">Applications</a>
+              <ul class="dropdown-menu">
+                <li><a href="distance.html">Distance Education</a></li>
+                <li>
+                  <a href="english.html">English Medium Bible Training</a>
+                </li>
+                <li><a href="telugu.html">Telugu Medium Bible Training</a></li>
+                <li>
+                  <a href="monthly.html">Monthly 5 Days Bible Training</a>
+                </li>
+                <li>
+                  <a href="calvin.html"
+                    >CALVIN WOMEN Telugu Medium Bible Training
+                  </a>
+                </li>
+              </ul>
+            </li>
+
             <li>
               <a class="nav-link scrollto" href="contact.html">Contact</a>
             </li>
@@ -181,20 +186,23 @@
           <div class="row">
             <div class="col-12">
               <form
-                action="application.php"
+                action="english.php"
                 method="post"
                 role="form"
                 class="php-email-form"
               >
                 <h2 class="text-center mb-5">
-                  <strong>Application For Admission Into English Medium BIBLE Training </strong>
+                  <strong
+                    >Application For Admission Into English Medium BIBLE
+                    Training
+                  </strong>
                 </h2>
                 <div class="row mb-5">
                   <h4 class="mb-3">
-                    <strong>Student   Information</strong>
+                    <strong>Student Information</strong>
                   </h4>
 
-                  <p><strong>Note:  </strong> Seeking Admission Into 3 Years</p>
+                  <p><strong>Note: </strong> Seeking Admission Into 3 Years</p>
                   <div class="col-md-6 form-group">
                     <input
                       type="text"
@@ -202,7 +210,6 @@
                       class="form-control"
                       id="name"
                       placeholder="Full Name"
-                      required=""
                     />
                   </div>
                   <div class="col-md-6 form-group">
@@ -212,17 +219,15 @@
                       class="form-control"
                       id="name"
                       placeholder="Seeking Admission In  (January/August)"
-                      required=""
                     />
                   </div>
-                  <div class="col-md-6 form-group mt-3  ">
+                  <div class="col-md-6 form-group mt-3">
                     <input
                       type="text"
                       class="form-control"
                       name="DateOfBirth"
                       id="email"
                       placeholder="Date Of Birth"
-                      required=""
                     />
                   </div>
                   <div class="col-md-6 form-group mt-3">
@@ -234,7 +239,7 @@
                       placeholder="Age"
                     />
                   </div>
-                
+
                   <div class="col-md-6 form-group mt-3">
                     <input
                       type="text"
@@ -248,12 +253,12 @@
                     <input
                       type="text"
                       class="form-control"
-                      name="Married/Unmarried"
+                      name="Married"
                       id="subject"
                       placeholder="Married/Unmarried"
                     />
                   </div>
-             
+
                   <div class="col-md-6 form-group mt-3">
                     <input
                       type="text"
@@ -271,7 +276,7 @@
                       id="subject"
                       placeholder="State Your Present Occupation"
                     />
-                  </div> 
+                  </div>
                   <div class="col-md-6 form-group mt-3">
                     <input
                       type="text"
@@ -280,12 +285,12 @@
                       id="subject"
                       placeholder="What Church Do You Belong  (Church of Christ  OR Others)"
                     />
-                  </div> 
+                  </div>
                   <div class="col-md-6 form-group mt-3">
                     <input
                       type="text"
                       class="form-control"
-                      name="churchname"
+                      name="police"
                       id="subject"
                       placeholder="Did You Ever Involved In Any Police Matters"
                     />
@@ -293,27 +298,27 @@
                   <div class="col-md-6 form-group mt-3">
                     <textarea
                       class="form-control"
-                      name="Address"
+                      name="aim"
                       rows="1"
                       placeholder="What Is The Main Aim To Join In This School"
-                      required=""
+                      
                     ></textarea>
-                  </div> 
+                  </div>
                   <div class="col-md-6 form-group mt-3">
                     <textarea
                       class="form-control"
                       name="Address"
                       rows="1"
                       placeholder="Address: D.no, Street, City, Mandal, Dist, State.."
-                      required=""
+                     
                     ></textarea>
                   </div>
                 </div>
- 
 
-                <p><strong>Note:  </strong> No Admission Without Original Certificates At The Time Of Admission</p>
-
-
+                <p>
+                  <strong>Note: </strong> No Admission Without Original
+                  Certificates At The Time Of Admission
+                </p>
 
                 <div class="my-3">
                   <div class="loading">Loading</div>
@@ -322,7 +327,6 @@
                     Your message has been sent. Thank you!
                   </div>
                 </div>
-
 
                 <div class="text-center">
                   <button type="submit">Send Message</button>

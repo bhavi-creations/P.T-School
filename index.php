@@ -69,7 +69,21 @@
            <li><a class="nav-link scrollto  " href="courses.html">Courses</a></li>
 
 
-           <li><a class="nav-link scrollto  " href="applications.html">Applications</a></li>
+          
+
+           <li class="dropdown">
+              <a class="nav-link scrollto" >Applications</a>
+              <ul class="dropdown-menu">
+                  <li><a href="distance.html">Distance Education</a></li>
+                  <li><a href="english.html">English Medium Bible Training</a></li>
+                  <li><a href="telugu.html">Telugu Medium Bible Training</a></li>
+                  <li><a href="monthly.html">Monthly 5 Days Bible Training</a></li>
+                  <li><a href="calvin.html">CALVIN WOMEN Telugu Medium Bible Training </a></li>
+              </ul>
+            </li>
+
+
+
            <li><a class="nav-link scrollto  " href="pdf.html">PDF</a></li>
 
            <li><a class="nav-link scrollto " href="contact.html">Contact</a></li>
