@@ -35,8 +35,8 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">NEW BLOG</h6>
-                <a class="collapse-item" href="newBlog.php"> <i class="fas fa-fw fa-blog"></i> UPLOAD PDF</a>
-                <a class="collapse-item" href="allBlog.php"> <i class="fas fa-fw fa-edit"></i> All PDF'S</a>
+                <a class="collapse-item" href="newPDF.php"> <i class="fas fa-fw fa-blog"></i> UPLOAD PDF</a>
+                <a class="collapse-item" href="allPDF.php"> <i class="fas fa-fw fa-edit"></i> All PDF'S</a>
             </div>
         </div>
     </li>

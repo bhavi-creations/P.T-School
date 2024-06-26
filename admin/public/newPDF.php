@@ -13,9 +13,7 @@
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
@@ -60,8 +58,7 @@
                         <div class="col-xl-11 ">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
-                                <div
-                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-success">CREATE CONTENT</h6>
                                     <!-- <div class="dropdown no-arrow">
                                         <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
@@ -80,60 +77,53 @@
                                 </div>
                                 <!-- Card Body -->
                                 <div class="card-body">
-                                    <form style='color:black;' id="addblogform" action="addBlog.php" method="POST"
-                                        enctype="multipart/form-data">
+                                    <form style='color:black;' id="addblogform" action="addBlog.php" method="POST" enctype="multipart/form-data">
                                         <div class="mb-3">
                                             <label for="exampleFormControlInput1" class="form-label text-primary">ENTER
                                                 TITLE</label>
-                                            <input type="text" class="form-control text-grey-900" name='title'
-                                                id="exampleFormControlInput1" placeholder="TITLE" required>
+                                            <input type="text" class="form-control text-grey-900" name='title' id="exampleFormControlInput1" placeholder="TITLE" required>
                                         </div>
-                                        <link href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.snow.css"
-                                            rel="stylesheet" />
+                                        <link href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.snow.css" rel="stylesheet" />
 
                                         <!-- Create the editor container -->
                                         <label for="exampleFormControlInput1" class="form-label text-primary">ENTER
                                             CONTENT</label>
-                                            <link href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.snow.css" rel="stylesheet" />
+                                        <link href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.snow.css" rel="stylesheet" />
 
-<!-- Create the editor container -->
-<div id="editor" style='height:200px;'>
+                                        <!-- Create the editor container -->
+                                        <div id="editor" style='height:200px;'>
 
-</div>
-<input name="content" id="formcontentdata" style="display: none"></input>
+                                        </div>
+                                        <input name="content" id="formcontentdata" style="display: none"></input>
 
-<!-- Include the Quill library -->
-<script src="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.js"></script>
+                                        <!-- Include the Quill library -->
+                                        <script src="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.js"></script>
 
-<!-- Initialize Quill editor -->
-<script>
-  const quill = new Quill('#editor', {
-    theme: 'snow'
-  });
-  document.querySelector('#addblogform').onsubmit = function () {
+                                        <!-- Initialize Quill editor -->
+                                        <script>
+                                            const quill = new Quill('#editor', {
+                                                theme: 'snow'
+                                            });
+                                            document.querySelector('#addblogform').onsubmit = function() {
                                                 document.querySelector('#formcontentdata').value = quill.getSemanticHTML();
                                             };
-</script>
+                                        </script>
                                         <div class="mb-3">
                                             <label for="formFileMultiple" class="form-label text-primary my-2">Choose
                                                 Photos
                                                 (you can choose multiple photos)</label>
-                                            <input class="form-control" name="photos[]" type="file"
-                                                id="formFileMultiple" multiple>
+                                            <input class="form-control" name="photos[]" type="file" id="formFileMultiple" multiple>
                                         </div>
                                         <div class="mb-3">
                                             <label for="formFileVideo" class="form-label text-primary">Choose
                                                 Video</label>
-                                            <input class="form-control" name="video" type="file" id="formFileVideo"
-                                                required>
-                                                
+                                            <input class="form-control" name="video" type="file" id="formFileVideo" required>
+
                                         </div>
                                         <div class='row p-3'>
                                             <div class='col-xl-7 col-sm-2'></div>
-                                            <button type='reset'
-                                                class='btn btn-danger mx-1 my-2 col-xl-2'>Clear</button>
-                                            <button type='submit'
-                                                class='btn btn-success mx-1 my-2 col-xl-2'>Publish</button>
+                                            <button type='reset' class='btn btn-danger mx-1 my-2 col-xl-2'>Clear</button>
+                                            <button type='submit' class='btn btn-success mx-1 my-2 col-xl-2'>Publish</button>
                                         </div>
                                     </form>
                                 </div>
@@ -150,11 +140,11 @@
                 <footer class="sticky-footer bg-white">
                     <div class="container my-auto">
                         <div class="copyright text-center my-auto">
-                        <div class="footer-widget__copyright">
-              <p class="mini_text" style="color:black"> ©2024 P.T.SCHOOL . All Rights Reserved. Designed &
-                Developed by <a href="https://bhavicreations.com/" target="_blank" style="text-decoration: none;color:black">Bhavi
-                  Creations</a></p>
-            </div>
+                            <div class="footer-widget__copyright">
+                                <p class="mini_text" style="color:black"> ©2024 P.T.SCHOOL . All Rights Reserved. Designed &
+                                    Developed by <a href="https://bhavicreations.com/" target="_blank" style="text-decoration: none;color:black">Bhavi
+                                        Creations</a></p>
+                            </div>
                         </div>
                     </div>
                 </footer>
@@ -172,8 +162,7 @@
         </a>
 
         <!-- Logout Modal-->
-        <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
+        <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
