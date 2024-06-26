@@ -1,10 +1,10 @@
 <?php
 // Database configuration
- 
 $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "ptschool";
+
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -28,7 +28,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $stmt->execute();
 
             if ($stmt->affected_rows > 0) {
-                echo "PDF uploaded successfully.";
+                // Redirect to index.php after successful upload
+                header("Location: index.php");
+                exit; // Ensure that script stops execution after redirection
             } else {
                 echo "Failed to save PDF details to the database.";
             }

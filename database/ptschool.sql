@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 09, 2024 at 07:57 PM
+-- Generation Time: Jun 26, 2024 at 02:59 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `tripura`
+-- Database: `ptschool`
 --
 
 -- --------------------------------------------------------
@@ -36,14 +36,31 @@ CREATE TABLE `blog` (
   `time` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+-- --------------------------------------------------------
+
 --
--- Dumping data for table `blog`
+-- Table structure for table `pdf_uploads`
 --
 
-INSERT INTO `blog` (`id`, `title`, `content`, `photos`, `video`, `time`) VALUES
-(1, 'test', '<p>irygfkae</p><p><strong>ree</strong></p><h1>rversdv</h1>', '[\"66619e90617d1_1717673616.png\",\"66619e9061ba7_1717673616.jfif\"]', '66619fbd617bd_1717673917.mp4', '2024-06-06 11:08:06'),
-(2, 'test2', '<p>test</p>', '[\"66619f2e331cb_1717673774.png\",\"66619f2e33597_1717673774.png\"]', '66619f2e32d34_1717673774.mp4', '2024-06-06 11:36:14'),
-(3, 'test3', '<p>emo</p>', '[\"6661a238f3489_1717674552.jfif\",\"6661a238f396c_1717674552.png\"]', '6661a26483425_1717674596.mp4', '2024-06-06 11:49:12');
+CREATE TABLE `pdf_uploads` (
+  `id` int(11) NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `pdf_path` varchar(255) NOT NULL,
+  `uploaded_at` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `pdf_uploads`
+--
+
+INSERT INTO `pdf_uploads` (`id`, `title`, `pdf_path`, `uploaded_at`) VALUES
+(1, 'sg', 'uploads/Landing page 2.pdf', '2024-06-26 12:29:53'),
+(2, '32', 'uploads/Landing page 1.pdf', '2024-06-26 12:39:24'),
+(3, '33', 'uploads/logo (1).pdf', '2024-06-26 12:39:40'),
+(4, '5', 'uploads/logo.pdf', '2024-06-26 12:39:50'),
+(5, '55', 'uploads/Landing page 2.pdf', '2024-06-26 12:39:57'),
+(6, '55', 'uploads/Landing page 2.pdf', '2024-06-26 12:56:35'),
+(7, 'ds', 'uploads/logo.pdf', '2024-06-26 12:57:52');
 
 -- --------------------------------------------------------
 
@@ -65,8 +82,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `first_name`, `last_name`, `email`, `password`, `created_at`) VALUES
-(2, 'tripura@gmail.com', '', 'tripura@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', '2024-06-07 10:14:15'),
-(3, 'test', 'test', 'testing@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', '2024-06-06 12:10:03');
+(4, 'ptschool', 'ptschool', 'ptschool@gmail.com', 'c95518993d4bc60589df69c7839b2a84', '2024-06-26 11:55:31');
 
 --
 -- Indexes for dumped tables
@@ -76,6 +92,12 @@ INSERT INTO `users` (`id`, `first_name`, `last_name`, `email`, `password`, `crea
 -- Indexes for table `blog`
 --
 ALTER TABLE `blog`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `pdf_uploads`
+--
+ALTER TABLE `pdf_uploads`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -96,10 +118,16 @@ ALTER TABLE `blog`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
+-- AUTO_INCREMENT for table `pdf_uploads`
+--
+ALTER TABLE `pdf_uploads`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+
+--
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
