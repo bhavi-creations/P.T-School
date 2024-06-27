@@ -118,6 +118,38 @@
 
                 </div>
                 <!-- End of Main Content -->
+<!-- Script for handling PDF deletion -->
+<script>
+$(document).ready(function() {
+    // Function to handle PDF deletion
+    function deletePDF(pdfId) {
+        $.ajax({
+            url: 'delete_pdf.php?id=' + pdfId,
+            type: 'GET',
+            success: function() {
+                // Remove the deleted PDF card from the DOM
+                $('#pdfCard_' + pdfId).fadeOut('slow', function() {
+                    $(this).remove();
+                });
+            },
+            error: function(xhr, status, error) {
+                console.error('Error deleting PDF:', error);
+                // Show error message if needed
+            }
+        });
+    }
+
+    // Bind click event to delete buttons dynamically
+    $(document).on('click', '.delete-pdf-btn', function(e) {
+        e.preventDefault();
+        var pdfId = $(this).data('pdf-id');
+        if (confirm('Are you sure you want to delete this PDF?')) {
+            deletePDF(pdfId);
+        }
+    });
+});
+</script>
+
 
                 <!-- Footer -->
                 <footer class="sticky-footer bg-white">
