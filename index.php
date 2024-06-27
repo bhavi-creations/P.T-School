@@ -287,6 +287,7 @@
                       </div>
                     </div>
                   </div>
+                  <a href="courses.html">Read More....</a>
                 </div>
               </div>
               <div class="tab-pane fade  " id="v-pills-b1" role="tabpanel" aria-labelledby="v-pills-a-tab">
@@ -380,6 +381,8 @@
                       </div>
                     </div>
                   </div>
+                  <a href="courses.html">Read More....</a>
+
                 </div>
               </div>
               <div class="tab-pane fade " id="v-pills-c1" role="tabpanel" aria-labelledby="v-pills-a-tab">
@@ -473,6 +476,8 @@
                       </div>
                     </div>
                   </div>
+                  <a href="courses.html">Read More....</a>
+
                 </div>
               </div>
             </div>
