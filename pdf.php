@@ -90,7 +90,7 @@ $pdf_result = $conn->query($pdf_sql);
                     <?php
                     if ($pdf_result->num_rows > 0) {
                         while ($pdf_row = $pdf_result->fetch_assoc()) {
-                            $pdf_path = $pdf_row['pdf_path'];
+                            $pdf_path = 'admin/public/'.$pdf_row['pdf_path'];
                             // Check if file exists
                             if (file_exists($pdf_path)) {
                                 echo '<div class="col-4 col-md-3 my-2">';
