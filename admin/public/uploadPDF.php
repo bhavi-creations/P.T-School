@@ -1,5 +1,5 @@
 <?php
-// Database configuration
+// Database connection (replace with your actual database connection details)
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -13,33 +13,45 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
+// Check if form is submitted
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $title = $_POST['title'];
-    $pdfFile = $_FILES['pdf'];
+    $pdf = $_FILES['pdf'];
 
-    if ($pdfFile['error'] == UPLOAD_ERR_OK) {
-        $pdfName = basename($pdfFile['name']);
-        $pdfTmpName = $pdfFile['tmp_name'];
-        $pdfPath = 'uploads/' . $pdfName;
+    // Check if file was uploaded without errors
+    if ($pdf['error'] == 0) {
+        $pdf_name = $pdf['name'];
+        $pdf_tmp_name = $pdf['tmp_name'];
+        $pdf_size = $pdf['size'];
+        $pdf_ext = pathinfo($pdf_name, PATHINFO_EXTENSION);
 
-        if (move_uploaded_file($pdfTmpName, $pdfPath)) {
-            $stmt = $conn->prepare("INSERT INTO pdf_uploads (title, pdf_path) VALUES (?, ?)");
-            $stmt->bind_param("ss", $title, $pdfPath);
-            $stmt->execute();
+        // Ensure the file is a PDF
+        if (strtolower($pdf_ext) == 'pdf') {
+            $upload_dir = 'uploads/pdfs/';
+            $pdf_path = $upload_dir . basename($pdf_name);
 
-            if ($stmt->affected_rows > 0) {
-                // Redirect to index.php after successful upload
-                header("Location: index.php");
-                exit; // Ensure that script stops execution after redirection
+            // Move the uploaded file to the server
+            if (move_uploaded_file($pdf_tmp_name, $pdf_path)) {
+                // Insert into database
+                $sql = "INSERT INTO pdf_uploads (title, pdf_path) VALUES (?, ?)";
+                $stmt = $conn->prepare($sql);
+                $stmt->bind_param('ss', $title, $pdf_path);
+
+                if ($stmt->execute()) {
+                    // Redirect to index.php after successful upload
+                    header('Location: index.php');
+                    exit();
+                } else {
+                    echo "Database error: " . $conn->error;
+                }
             } else {
-                echo "Failed to save PDF details to the database.";
+                echo "Failed to move uploaded file.";
             }
-            $stmt->close();
         } else {
-            echo "Failed to upload PDF.";
+            echo "Only PDF files are allowed.";
         }
     } else {
-        echo "Error uploading PDF.";
+        echo "File upload error: " . $pdf['error'];
     }
 }
 
