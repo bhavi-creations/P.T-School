@@ -97,7 +97,7 @@
                 <div class='card card-custom'>
                     <div class='card-body'>
                         <h5 class='card-title'>{$pdf_row['title']}</h5>
-                        <p class='card-text'>Uploaded PDF: <a href='admin/public/uploads/pdfs/{$pdf_row['pdf_path']}' target='_blank'>View PDF</a></p>
+                        <p class='card-text'>Uploaded PDF: <a href='{$pdf_row['pdf_path']}' target='_blank'>View PDF</a></p>
                         <div class='row'>
                             <a href='edit_pdf.php?id={$pdf_row['id']}' class='btn btn-warning col-xl-4 mx-3 my-2'>Edit PDF</a>
                             <a href='delete_pdf.php?id={$pdf_row['id']}' class='col-xl-4 btn btn-danger mx-3 my-2'>Delete PDF</a>

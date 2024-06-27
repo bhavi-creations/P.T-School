@@ -97,7 +97,7 @@
                 <div class='card card-custom'>
                     <div class='card-body'>
                         <h5 class='card-title'>{$pdf_row['title']}</h5>
-                        <p class='card-text'>Uploaded PDF: <a href='admin/public/uploads/pdfs/{$pdf_path}' target='_blank'>View PDF</a></p>
+                        <p class='card-text'>Uploaded PDF: <a href='{$pdf_path}' target='_blank'>View PDF</a></p>
                     </div>
                 </div>
             </div>
