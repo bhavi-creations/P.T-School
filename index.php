@@ -196,7 +196,7 @@
             <div class="tab-content ftco-animate" id="v-pills-tabContent">
               <div class="tab-pane fade show active" id="v-pills-a1" role="tabpanel" aria-labelledby="v-pills-a-tab">
                 <div class="row col-lg-12">
-                  <div class="col-12  ">
+                  <!-- <div class="col-12  ">
                     <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
                       <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -221,7 +221,7 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <h3 class="my-5 text-center">FOR BACHELOR IN BIBLICAL STUDIES (BBS) 3 YEARS AND ONE YEAR DIPLOMA
                     COURSE</h3>
                   <div class="container">
@@ -292,7 +292,7 @@
               </div>
               <div class="tab-pane fade  " id="v-pills-b1" role="tabpanel" aria-labelledby="v-pills-a-tab">
                 <div class="row col-lg-12">
-                  <div class="col-12  ">
+                  <!-- <div class="col-12  ">
                     <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
                       <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -317,7 +317,7 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <h3 class="my-5 text-center">తెలుగు మీడియం 2 సం.లు, 1 సం. ము మరియు 6 నెలలు</h3>
                   <div class="container">
                     <div class="row  ">
@@ -387,7 +387,7 @@
               </div>
               <div class="tab-pane fade " id="v-pills-c1" role="tabpanel" aria-labelledby="v-pills-a-tab">
                 <div class="row col-lg-12">
-                  <div class="col-12  ">
+                  <!-- <div class="col-12  ">
                     <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
                       <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -412,7 +412,7 @@
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <h3 class="my-5 text-center">క్రీస్తు సంఘము - స్త్రీ ఉపదేశకులకు బోధన</h3>
                   <div class="container">
                     <div class="row  ">

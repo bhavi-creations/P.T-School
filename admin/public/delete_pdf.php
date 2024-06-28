@@ -40,8 +40,9 @@ if (isset($_GET['id']) && !empty($_GET['id'])) {
         // Close database connection
         $conn->close();
 
-        // Respond with success to AJAX request
-        http_response_code(204); // No content
+        // Redirect to index.php
+        header("Location: index.php");
+        exit(); // Ensure no further code is executed after the redirect
     } else {
         // Error occurred while deleting
         http_response_code(500); // Internal server error
