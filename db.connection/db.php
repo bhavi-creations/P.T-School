@@ -1,8 +1,15 @@
 <?php
 $host = 'localhost';
-$db = 'ptschool';
-$user = 'root';
-$pass = '';
+// Determine if the server is localhost
+if ($_SERVER['SERVER_NAME'] == 'localhost') {
+    $user = "root";
+    $pass = "";
+    $db = "ptschool";
+} else {
+    $user = "projects";
+    $pass = "MWuV3uffxsBQ7Gg";
+    $db = "projects";
+}
 
 
  

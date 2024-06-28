@@ -1,17 +1,18 @@
 <?php
-// Database connection (replace with your actual database connection details)
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "ptschool";
+include './db.connection/db_connection.php';
+// // Database connection (replace with your actual database connection details)
+// $servername = "localhost";
+// $username = "root";
+// $password = "";
+// $dbname = "ptschool";
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+// // Create connection
+// $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+// // Check connection
+// if ($conn->connect_error) {
+//     die("Connection failed: " . $conn->connect_error);
+// }
 
 // Fetch PDF data
 $pdf_sql = "SELECT title, pdf_path FROM pdf_uploads";

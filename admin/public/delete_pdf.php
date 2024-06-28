@@ -1,6 +1,6 @@
 <?php
 // Database connection (replace with your actual database connection details)
-include 'db.connection/db_connection.php';
+include '../../db.connection/db_connection.php';
 
 // Check if PDF ID is provided via GET parameter
 if (isset($_GET['id']) && !empty($_GET['id'])) {
