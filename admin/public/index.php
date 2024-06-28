@@ -1,3 +1,11 @@
+<?php
+// Include the database connection file
+ 
+include '../../db.connection/db_connection.php';
+?>  
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -72,19 +80,7 @@
                                 <div class="row row-custom no-gutters">
                                     <?php
                                     // Database connection (replace with your actual database connection details)
-                                    $servername = "localhost";
-                                    $username = "root";
-                                    $password = "";
-                                    $dbname = "ptschool";
-
-                                    // Create connection
-                                    $conn = new mysqli($servername, $username, $password, $dbname);
-
-                                    // Check connection
-                                    if ($conn->connect_error) {
-                                        die("Connection failed: " . $conn->connect_error);
-                                    }
-
+                                   
                                     // Fetch PDF data
                                     $pdf_sql = "SELECT id, title, pdf_path FROM pdf_uploads";
                                     $pdf_result = $conn->query($pdf_sql);

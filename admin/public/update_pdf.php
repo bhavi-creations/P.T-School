@@ -1,12 +1,7 @@
 <?php
 // Database connection (replace with your actual database connection details)
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "ptschool";
+include '../../db.connection/db_connection.php';
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
 if ($conn->connect_error) {

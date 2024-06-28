@@ -1,9 +1,6 @@
 <?php
 // Database connection (replace with your actual database connection details)
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "ptschool";
+include 'db.connection/db_connection.php';
 
 // Check if PDF ID is provided via GET parameter
 if (isset($_GET['id']) && !empty($_GET['id'])) {
