@@ -96,7 +96,7 @@ $pdf_result = $conn->query($pdf_sql);
                             if (file_exists($pdf_path)) {
                                 echo '<div class="col-4 col-md-3 my-2">';
                                 echo '<a href="' . $pdf_path . '" target="_blank">';
-                                echo '<img src="assets\img\pdf_image.webp" class="img-fluid" style="border-radius :20px; ">';
+                                echo '<img src="assets\img\pdf_image.jpg" class="img-fluid" style="border-radius :20px; ">';
                                 echo '</a>';
                                 echo '<p class="text-center mt-3">' . htmlspecialchars($pdf_row['title']) . '</p>';
                                 echo '</div>';
@@ -105,7 +105,7 @@ $pdf_result = $conn->query($pdf_sql);
                                 echo '<p class="text-center mt-3">File not found: ' . htmlspecialchars($pdf_path) . '</p>';
                                 echo '</div>';
                             }
-                        } 
+                        }  
                     } else {
                         echo '<p>No documents found.</p>';
                     }
