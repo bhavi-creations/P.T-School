@@ -628,10 +628,10 @@
              </div>
              <div class="col-md-4 form-group mt-3">
                <select name="doctor" id="doctor" class="form-select">
-                 <option value="">Select Class</option>
-                 <option value="Elementary ">Elementary</option>
-                 <option value="Primary">Primary</option>
-                 <option value="Secondry">Secondry</option>
+                 <option value="">Select Course</option>
+                 <option value="BACHELOR IN BIBLICAL STUDIES (BBS) ">BACHELOR IN BIBLICAL STUDIES (BBS)</option>
+                 <option value="Telugu Medium Bible Training">Telugu Medium Bible Training</option>
+                 <option value="Women Telugu Medium Bible Training">Women Telugu Medium Bible Training</option>
 
                </select>
                <!-- <input type="text" name="doctor" class="form-select" id=" " placeholder="Doctor" required> -->

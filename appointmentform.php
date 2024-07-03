@@ -23,14 +23,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'kedarisetti_2000@yahoo.com'; // Your Gmail email address
-        $mail->Password = 'exnevxtbcltgmece'; // Your Gmail password
+        $mail->Username = 'preacherstrainingschool@gmail.com'; // Your Gmail email address
+        $mail->Password = 'odfpfchyvbvwtnue'; // Your Gmail password
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
         // Recipients
-        $mail->setFrom('kedarisetti_2000@yahoo.com', 'PREACHERS TRAINING SCHOOL'); // Your Gmail email and name
-        $mail->addAddress('kedarisetti_2000@yahoo.com', 'PT School'); // Recipient's email and name
+        $mail->setFrom('preacherstrainingschool@gmail.com', 'PREACHERS TRAINING SCHOOL'); // Your Gmail email and name
+        $mail->addAddress('preacherstrainingschool@gmail.com', 'PT School'); // Recipient's email and name
 
         // Content
         $mail->isHTML(true);
@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <p><strong>Date:</strong> $date</p>
             <p><strong>Department:</strong> $department</p>
             <p><strong>Doctor:</strong> $doctor</p>
-            <p><strong>Message:</strong>$message</p>
+            <p><strong>Message:</strong> $message</p>
         ";
 
         $mail->send();
