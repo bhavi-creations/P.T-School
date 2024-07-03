@@ -103,15 +103,15 @@
      <div class="carousel-inner cor_med" id="bb">
 
        <div class="carousel-item active ">
-         <img src="assets/img/slide/new-2.png" class="d-block  img-fluid " alt="...">
+         <img src="assets/img/slide/slider (1).png" class="d-block  img-fluid " alt="...">
 
        </div>
        <div class="carousel-item">
-         <img src="assets/img/slide/new-1.png" class="d-block img-fluid   " alt="...">
+         <img src="assets/img/slide/slider.png" class="d-block img-fluid   " alt="...">
 
        </div>
        <div class="carousel-item">
-         <img src="assets/img/slide/new-3.png" class="d-block   img-fluid" alt="...">
+         <img src="assets/img/slide/slider3.png" class="d-block   img-fluid" alt="...">
        </div>
      </div>
      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -139,7 +139,7 @@
          <div class="row">
            <div class="col-md-4 col-12   d-flex flex-coloumn justify-content-center ">
 
-             <img src="assets/img/carsoul/principle.webp" class="img-fluid" alt="">
+             <img src="assets/img/slide/about.png" class="img-fluid" alt="">
 
            </div>
            <div class="col-md-8  col-12 p-2">
@@ -670,28 +670,28 @@
 
              <div class="swiper-slide">
                <div class="testimonial-item">
-                 <img src="assets/img/carsoul/slider (1).jpg" class="img-fluid">
+                 <img src="assets/img/slide/1.png" class="img-fluid">
                </div>
              </div>
 
 
              <div class="swiper-slide">
                <div class="testimonial-item">
-                 <img src="assets/img/carsoul/slider (2).jpg" class="img-fluid">
+                 <img src="assets/img/slide/2.png" class="img-fluid">
                </div>
              </div>
 
 
              <div class="swiper-slide">
                <div class="testimonial-item">
-                 <img src="assets/img/carsoul/slider (3).jpg" class="img-fluid">
+                 <img src="assets/img/slide/3.png" class="img-fluid">
                </div>
              </div>
 
 
              <div class="swiper-slide">
                <div class="testimonial-item">
-                 <img src="assets/img/carsoul/slider (4).jpg" class="img-fluid">
+                 <img src="assets/img/slide/4.png" class="img-fluid">
                </div>
              </div>
 
@@ -699,7 +699,7 @@
 
              <div class="swiper-slide">
                <div class="testimonial-item">
-                 <img src="assets/img/carsoul/slider (5).jpg" class="img-fluid">
+                 <img src="assets/img/slide/5.png" class="img-fluid">
                </div>
              </div>
 
@@ -709,7 +709,7 @@
 
              <div class=" swiper-slide">
                <div class="testimonial-item">
-                 <img src="assets/img/carsoul/slider (6).jpg" class="img-fluid">
+                 <img src="assets/img/slide/6.png" class="img-fluid">
                </div>
              </div>
 
@@ -717,31 +717,31 @@
 
              <div class="swiper-slide">
                <div class="testimonial-item">
-                 <img src="assets/img/carsoul/slider (7).jpg" class="img-fluid">
+                 <img src="assets/img/slide/7.png" class="img-fluid">
                </div>
              </div>
 
              <div class="swiper-slide">
                <div class="testimonial-item">
-                 <img src="assets/img/carsoul/slider (8).jpg" class="img-fluid">
+                 <img src="assets/img/slide/8.png" class="img-fluid">
                </div>
              </div>
              <div class="swiper-slide">
                <div class="testimonial-item">
-                 <img src="assets/img/carsoul/slider (9).jpg" class="img-fluid">
+                 <img src="assets/img/slide/10.png" class="img-fluid">
                </div>
              </div>
 
              <div class=" swiper-slide">
                <div class="testimonial-item">
-                 <img src="assets/img/carsoul/slider (11).jpg" class="img-fluid">
+                 <img src="assets/img/slide/11.png" class="img-fluid">
                </div>
              </div>
 
 
              <div class="swiper-slide">
                <div class="testimonial-item">
-                 <img src="assets/img/carsoul/slider (12).jpg" class="img-fluid">
+                 <img src="assets/img/slide/12.png" class="img-fluid">
                </div>
              </div>
 
