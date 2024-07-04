@@ -1210,21 +1210,21 @@ section {
   min-height: 320px;
 }
 
-.testimonials .testimonial-item .testimonial-img {
+/* .testimonials .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50%;
   margin: -40px 0 0 40px;
   position: relative;
   z-index: 2;
   border: 6px solid #fff;
-}
+} */
 
-.testimonials .testimonial-item h3 {
+/* .testimonials .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
   color: #111;
-}
+} */
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
