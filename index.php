@@ -507,13 +507,12 @@
                <div class="testimonial-item">
                  <p>
                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                   Excellent consultation
-                   and perfect services. Treatment started showing postive signs within a single day after visit. I
-                   heartfully recommend and I hope one of the best skin and mind hospital in our kakinada......
+                   As a recent graduate of the Bachelor in Biblical Studies program at P.T. School, I can confidently say that this institution has profoundly impacted my spiritual and academic journey. The curriculum is thorough and well-structured, covering a wide range of biblical texts and theological concepts. The instructors are incredibly knowledgeable and passionate, providing invaluable guidance and support throughout the program. The three years I spent here were transformative, equipping me with the skills and understanding necessary to serve effectively in ministry. I highly recommend P.T. School to anyone seeking to deepen their biblical knowledge and faith. 
+
                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                  </p>
-                 <img src="assets/img/tripura/profile.png" class="testimonial-img" alt="">
-                 <h3>Sravanthi</h3>
+                 <img src="assets/img/slide/profile.png" class="testimonial-img" alt="">
+                 <h3>John Smith                 </h3>
                  <!-- <h4>Ceo &amp; Founder</h4> -->
                </div>
              </div><!-- End testimonial item -->
@@ -522,14 +521,13 @@
                <div class="testimonial-item">
                  <p>
                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                   I recently completed a treatment program at Tripura Mind Wellness for my depression, and I cannot
-                   express enough how transformative the experience has been. From the moment I walked through the doors,
-                   I was met with empathy, professionalism, and a deep commitment to my well-being.
+                   The one-year diploma course at P.T. School was exactly what I needed to gain a solid foundation in biblical studies. As someone new to formal theological education, I appreciated the clear, concise, and engaging manner in which the courses were taught. The small class sizes and the supportive community made learning a truly enriching experience. I felt encouraged to ask questions and engage in meaningful discussions, which greatly enhanced my understanding. This program has not only strengthened my faith but also prepared me for further studies and ministry work. I am grateful for the excellent education and mentorship I received at P.T. School.
                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                  </p>
                  <!-- <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt=""> -->
-                 <img src="assets/img/tripura/profile.png" class="testimonial-img" alt="">
-                 <h3>Bhoomika</h3>
+                 <img src="assets/img/slide/profile.png" class="testimonial-img" alt="">
+                 <h3>Mary Johnson
+                 </h3>
                  <!-- <h4>Designer</h4> -->
                </div>
              </div><!-- End testimonial item -->
@@ -538,15 +536,11 @@
                <div class="testimonial-item">
                  <p>
                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                   The program's approach to stress management is comprehensive and highly individualized. The treatment
-                   plan included a mix of Cognitive Behavioral Therapy (CBT), mindfulness practices, and relaxation
-                   techniques. Each session was designed to equip me with practical tools to manage stress in real-time
-                   and to foster long-term resilience. The combination of these techniques helped me to develop a more
-                   balanced and mindful approach to handling stress.
+                   Choosing P.T. School for my Bachelor in Biblical Studies was one of the best decisions I’ve made. The program’s comprehensive approach, blending academic rigor with practical ministry training, was exactly what I was looking for. The faculty's dedication to each student’s growth was evident from day one. Their expertise and personal commitment to our success created a nurturing and inspiring learning environment. The school's mission to provide quality biblical education is reflected in every aspect of the program. I graduated feeling well-prepared for my calling in ministry and with a deepened faith that will guide me in my future endeavors.
                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                  </p>
-                 <img src="assets/img/tripura/profile.png" class="testimonial-img" alt="">
-                 <h3>Ramana</h3>
+                 <img src="assets/img/slide/profile.png" class="testimonial-img" alt="">
+                 <h3>David Williams                 </h3>
                  <!-- <h4>Store Owner</h4> -->
                </div>
              </div><!-- End testimonial item -->
@@ -555,14 +549,11 @@
                <div class="testimonial-item">
                  <p>
                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                   As a parent, it's been heart-wrenching to see my child struggle with attention and focus issues.
-                   Finding the right support was crucial, and I am incredibly grateful for the remarkable transformation
-                   we experienced at Tripura Minds Care. Their specialized program for children who are easily distracted
-                   has made a profound difference in our lives.
+                   The  P.T. School program for women preachers is exceptional. The two-year course, broken into four semesters, provided a thorough grounding in biblical studies, all taught in Telugu, which made the material accessible and engaging. The school’s admission process, starting every January and August, was smooth, and the only requirement being a 10th-grade qualification made it easy for many women like me to join. This education has empowered me to serve effectively in my church and community. The program’s focus on practical ministry skills has been particularly beneficial, helping me grow both spiritually and intellectually.
                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                  </p>
-                 <img src="assets/img/tripura/profile.png" class="testimonial-img" alt="">
-                 <h3>Sirisha</h3>
+                 <img src="assets/img/slide/profile.png" class="testimonial-img" alt="">
+                 <h3>Meryem</h3>
                  <!-- <h4>Freelancer</h4> -->
                </div>
              </div><!-- End testimonial item -->
@@ -571,14 +562,11 @@
                <div class="testimonial-item">
                  <p>
                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                   From our initial visit, the staff at P.T.School demonstrated exceptional expertise and genuine
-                   empathy. The therapists, counselors, and educators are highly skilled in helping children cope with
-                   exam stress. Their understanding and supportive approach made my child feel at ease and understood
-                   from the start.
+                   I was initially hesitant about pursuing further education, but the six-month course at P.T. School was exactly what I needed. Starting in January and August, the short duration was packed with insightful teachings in Telugu, which made learning straightforward and impactful. Despite having only completed my 10th grade, the course structure and the supportive faculty helped me achieve a deeper understanding of the Bible. This program has not only strengthened my faith but also prepared me for active ministry work. I am thankful for this opportunity and highly recommend it to others.
                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                  </p>
-                 <img src="assets/img/tripura/profile.png" class="testimonial-img" alt="">
-                 <h3>Ramesh</h3>
+                 <img src="assets/img/slide/profile.png" class="testimonial-img" alt="">
+                 <h3>Thomas</h3>
                  <!-- <h4>Entrepreneur</h4> -->
                </div>
              </div><!-- End testimonial item -->
