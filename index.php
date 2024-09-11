@@ -137,17 +137,44 @@
            <h1>About Our Founder</h1>
          </div>
          <div class="row">
-           <div class="col-md-4 col-12   d-flex flex-coloumn justify-content-center ">
+           <div class="col-lg-4 col-12   d-flex flex-coloumn justify-content-center ">
 
              <img src="assets/img/slide/about.png" class="img-fluid" alt="">
 
            </div>
-           <div class="col-md-8  col-12 p-2">
-             <h2>Jane Doe</h2>
-             <p>Jane Doe is the visionary behind our school, bringing with her over 20 years of experience in the field of education. With a passion for innovative teaching methods and a commitment to fostering a nurturing learning environment, Jane has dedicated her career to ensuring that every student reaches their full potential.</p>
-             <p>Jane holds a Master's degree in Education from XYZ University and has worked as a teacher, administrator, and educational consultant. Her extensive background and unwavering dedication to excellence in education have been instrumental in shaping the school's mission and values.</p>
-             <p>Under Jane's leadership, our school has grown from a small community initiative to a renowned institution known for its academic rigor and supportive community. Her belief in the power of education to transform lives continues to inspire our staff and students every day.</p>
-             <a href="about.html">
+           <div class="col-lg-8  col-12 p-2">
+           <h2 class="mt-2">
+                God has blessed this PTS and many aspects have been added to the
+                school.
+              </h2>
+              <p>
+                In 1976 we started with the Telugu medium. In addition to our
+                major objective of Bible training, the Carl Technical School
+                with Typing Practice, computer operation, TV and radio repairs,
+                tailoring, electrical house wiring and others. Courses were
+                started for the benefit of students to learn “how to live and
+                how to make living” while they started self-supporting
+                congregations. The PTS provides living assistance to preachers
+                for only 5 years and then they need to be self-supporting.
+              </p>
+              <p>
+                In 1991 we started B.B.S (B.D) 3 years English medium Bible
+                training. This allows us to accept and teach people from all the
+                states of India. Along with this we started night school for
+                local people.
+              </p>
+              <p>
+                In 1995 the school began offering a 30 lesson of a Bible
+                correspondence course in both English and Telugu. This can help
+                anyone in the population.
+              </p>
+              <p>
+                In 2000 we were able to establish a full time Bible Training for
+                women. This is known as the Calvin Women Bible Training. This
+                course is designed for one year and two years. Preachers need to
+                have their wife trained to help her husband interact with the
+                Indian culture between men and women.
+              </p> <a href="about.html">
                <p>Read more...</p>
              </a>
 
