@@ -875,7 +875,7 @@
                   <a
                     href="terms.html"
                     style="text-decoration: none; color: #ffffff"
-                    >Terms & conditions
+                    >Terms & conditions :
                   </a>
                   <a
                     href="privacy.html"

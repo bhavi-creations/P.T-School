@@ -217,7 +217,7 @@ $pdf_result = $conn->query($pdf_sql);
                   <a
                     href="terms.html"
                     style="text-decoration: none; color: #ffffff"
-                    >Terms & conditions
+                    >Terms & conditions :
                   </a>
                   <a
                     href="privacy.html"
