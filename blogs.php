@@ -311,120 +311,196 @@ $result = $conn->query($sql);
     </main>
     <!-- ======= Footer ======= -->
     <footer id="footer">
-        <div class="footer-top" style="background-color:rgb(242 252 255);">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-xl-4 col-lg-3 col-md-6 d-flex flex-column justify-content-center">
-                        <div class="footer-info d-none d-xl-block">
-                            <a href="index.php" class="logo me-auto "><img src="assets/img/tripura/new-nav-image.png"
-                                    style="height:150px;" alt=""></a>
-
-                        </div>
-                        <div class="footer-info d-block d-xl-none">
-                            <a href="index.php" class="logo me-auto "><img src="assets/img/tripura/new-nav-image.png"
-                                    class="img-fluid" alt=""></a>
-
-                        </div>
-                    </div>
-
-                    <div class="col-xl-2 col-lg-2 col-md-6 col-5 footer-links">
-                        <h4>For Adults</h4>
-                        <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="index.php">Depression</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="index.php">Anxiety</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="index.php">Fear</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="index.php">Anger</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="index.php">Nerve Weakness</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="index.php">Sleep Problems</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="index.php">Migraine</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="index.php">Stress</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="index.php">Memory Loss</a></li>
-
-
-                        </ul>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-7 footer-links">
-                        <h4>For Children</h4>
-
-                        <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="index.php">Stress</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="index.php">Exam Stress for Children</a>
-                            </li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="index.php">Lagging Behind in Studies</a>
-                            </li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="index.php">Easily Distracted</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="index.php">Excessive Mischievousness</a>
-                            </li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="index.php">Losing Concentration Easily</a>
-                            </li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="index.php">Headache</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-4 col-md-6 footer-newsletter footerbgcolor">
-                        <h4>Contact us</h4>
-                        <p class="mt-2">
-                            <span class="phone_email"> <strong>Phone:</strong></span> <span class="mini_text">+91
-                                9493066633 </span>
-                            <br>
-                            <span class="phone_email"> <strong>Email:</strong></span> <span class="mini_text">
-                                tripuramindcare@gmail.com</span> <br>
-                        </p>
-                        <p class="mt-4 mini_text">
-                            2-56-5,
-                            <br> SANTHI NAGAR,<br>
-                            ROAD NO.1,<br>
-                            100 BUILDING CENTER,<br>
-
-                            HOUSING BOARD COLONY<br>
-
-                            OPP. CHRISTIAN COMMUNITY HALL
-                            <br>
-                            KAKINADA-533003 <br>
-                            Andhra Pradesh, India
-                            <br><br>
-                        </p>
-                        <div class="social-links mt-3">
-                            <a href="https://www.facebook.com/dr.akrstripuraskinandmindclinic/" target="_blank"
-                                class="facebook"><i class="bx bxl-facebook"></i></a>
-                            <a href="https://www.instagram.com/dr.akrs_tripura_mind_and_poly?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-                                target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
-
-
-                        </div>
-
-                    </div>
-
-                </div>
+      <div class="footer-top" style="background-color: rgb(242 252 255)">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-lg-5 col-md-5 col-6 d-flex flex-column justify-content-center"
+            >
+              <!-- <div class="footer-info d-none d-xl-block">
+                <a href="index.php" class="logo me-auto "><img src="assets/img/slide/logo_trans.png" style="height:150px;" alt=""></a>
+ 
+              </div> -->
+              <div class="footer-info d-block">
+                <a href="index.php" class="logo me-auto"
+                  ><img
+                    src="assets/img/slide/logo_trans.png"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+              </div>
             </div>
-        </div>
-
-        <div class="footer-area-bottom theme-bg">
-            <div class="container">
-                <div class="row  pt-4">
-                    <div class="col-xl-8 col-lg-9 col-md-12 col-12">
-                        <div class="footer-widget__copyright">
-                            <p class="mini_text" style="color:#ffffff"> ©2024 P.T.School . All Rights Reserved.
-                                Designed &
-                                Developed by <a href="https://bhavicreations.com/" target="_blank"
-                                    style="text-decoration: none;color:#ffffff">Bhavi
-                                    Creations</a></p>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-3 col-md-12 col-12">
-                        <div class="footer-widget__copyright-info info-direction ">
-                            <p class="mini_text"><a href="terms.html" style="text-decoration: none;color:#ffffff">Terms
-                                    & conditions
-                                </a>
-                                <a href="privacy.html" style="text-decoration: none;color:#ffffff"> Privacy & policy</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-lg-3 col-md-3 col-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <a href="index.php">Home</a>
+                </li>
+                <li>
+                  <a href="about.html">About</a>
+                </li>
+                <li>
+                  <a href="courses.html">Courses</a>
+                </li>
+                <li>
+                  <a href="#"> Applictions</a>
+                </li>
+                <li>
+                  <a href=" pdf.php">PDF</a>
+                </li>
+                <li>
+                  <a href="contact.html">Contact Us</a>
+                </li>
+              </ul>
             </div>
+
+            <div class="col-lg-4 col-md-4 footer-newsletter footerbgcolor">
+              <h4>Contact us</h4>
+              <p class="mt-2">
+                <span class="phone_email"> <strong>Phone:</strong></span>
+                <span class="mini_text"
+                  >+91 9849031095, &nbsp; +91 9441754711
+                </span>
+                <br />
+                <span class="phone_email"> <strong>Email:</strong></span>
+                <span class="mini_text"> kedarisetti_2000@yahoo.com</span>
+                <br />
+              </p>
+              <p class="mt-4 mini_text">
+                RAVINDRA NAGAR,<br />
+                TURANGI,<br />
+
+                KAKINADA-533016, <br />
+                Andhra Pradesh, India
+                <br /><br />
+              </p>
+              <div class="social-links mt-3">
+                <a href=" " target="_blank" class="facebook"
+                  ><i class="bx bxl-facebook"></i
+                ></a>
+                <a href=" " target="_blank" class="instagram"
+                  ><i class="bx bxl-instagram"></i
+                ></a>
+                <a href=" " target="_blank" class="twitter"
+                  ><i class="bx bxl-twitter"></i
+                ></a>
+                <a href=" " target="_blank" class="youtube"
+                  ><i class="bx bxl-youtube"></i
+                ></a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+
+       
+
+
+      
+      <div
+        class="footer-area-bottom theme-bg"
+        style="background-color: #01a084"
+      >
+        <div class="container">
+          <div class="row pt-4">
+            <div class="col-md-6 col-12">
+              <div class="footer-widget__copyright-info info-direction">
+                <p class="last_text">
+                  <a
+                    href="terms.html"
+                    style="text-decoration: none; color: #ffffff"
+                    >Terms & conditions
+                  </a>
+                  <a
+                    href="privacy.html"
+                    style="text-decoration: none; color: #ffffff"
+                  >
+                    Privacy & policy</a
+                  >
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-12 second_divv_end_brand">
+              <div
+                class="footer-widget__copyright-info info-direction d-flex flex-row justify-content-end align-items-center"
+              >
+                <a
+                  href="https://bhavicreations.com/"
+                  target="_blank"
+                  style="
+                    text-decoration: none;
+                    color: #ffffff;
+                    display: flex;
+                    align-items: center;
+                  "
+                >
+                  <p class="mini_text last_text mb-0">Branding By @</p>
+                  <img
+                    src="assets/img/bhavi_logo/Bhavi_Branding_Stamp.png"
+                    class="img-fluid brand_image"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <style>
+        @media (min-width: 1200px) {
+          .second_divv_end_brand {
+            padding-left: 35%;
+            margin-top: -10px;
+          }
+
+          .brand_image {
+            width: 23%;
+            margin-top: 0%;
+            margin-left: 5px;
+          }
+        }
+
+        @media (min-width: 992px) and (max-width: 1200px) {
+          .second_divv_end_brand {
+            padding-left: 32%;
+            margin-top: -10px;
+          }
+
+          .brand_image {
+            width: 23%;
+            margin-top: 0%;
+            margin-left: 5px;
+          }
+        }
+
+        @media (max-width: 768px) {
+          .second_divv_end_brand {
+            padding-left: 3%;
+            margin-top: -10px;
+          }
+
+          .brand_image {
+            width: 12%;
+            margin-top: 0%;
+            margin-left: 5px;
+          }
+        }
+
+        @media (min-width: 768px) and (max-width: 992px) {
+          .second_divv_end_brand {
+            padding-left: 23%;
+            margin-top: -10px;
+          }
+
+          .brand_image {
+            width: 23%;
+            margin-top: 0%;
+            margin-left: 5px;
+          }
+        }
+      </style>
     </footer>
     <!-- End Footer -->
 

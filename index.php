@@ -143,38 +143,38 @@
 
            </div>
            <div class="col-lg-8  col-12 p-2">
-           <h2 class="mt-2">
-                God has blessed this PTS and many aspects have been added to the
-                school.
-              </h2>
-              <p>
-                In 1976 we started with the Telugu medium. In addition to our
-                major objective of Bible training, the Carl Technical School
-                with Typing Practice, computer operation, TV and radio repairs,
-                tailoring, electrical house wiring and others. Courses were
-                started for the benefit of students to learn “how to live and
-                how to make living” while they started self-supporting
-                congregations. The PTS provides living assistance to preachers
-                for only 5 years and then they need to be self-supporting.
-              </p>
-              <p>
-                In 1991 we started B.B.S (B.D) 3 years English medium Bible
-                training. This allows us to accept and teach people from all the
-                states of India. Along with this we started night school for
-                local people.
-              </p>
-              <p>
-                In 1995 the school began offering a 30 lesson of a Bible
-                correspondence course in both English and Telugu. This can help
-                anyone in the population.
-              </p>
-              <p>
-                In 2000 we were able to establish a full time Bible Training for
-                women. This is known as the Calvin Women Bible Training. This
-                course is designed for one year and two years. Preachers need to
-                have their wife trained to help her husband interact with the
-                Indian culture between men and women.
-              </p> <a href="about.html">
+             <h2 class="mt-2">
+               God has blessed this PTS and many aspects have been added to the
+               school.
+             </h2>
+             <p>
+               In 1976 we started with the Telugu medium. In addition to our
+               major objective of Bible training, the Carl Technical School
+               with Typing Practice, computer operation, TV and radio repairs,
+               tailoring, electrical house wiring and others. Courses were
+               started for the benefit of students to learn “how to live and
+               how to make living” while they started self-supporting
+               congregations. The PTS provides living assistance to preachers
+               for only 5 years and then they need to be self-supporting.
+             </p>
+             <p>
+               In 1991 we started B.B.S (B.D) 3 years English medium Bible
+               training. This allows us to accept and teach people from all the
+               states of India. Along with this we started night school for
+               local people.
+             </p>
+             <p>
+               In 1995 the school began offering a 30 lesson of a Bible
+               correspondence course in both English and Telugu. This can help
+               anyone in the population.
+             </p>
+             <p>
+               In 2000 we were able to establish a full time Bible Training for
+               women. This is known as the Calvin Women Bible Training. This
+               course is designed for one year and two years. Preachers need to
+               have their wife trained to help her husband interact with the
+               Indian culture between men and women.
+             </p> <a href="about.html">
                <p>Read more...</p>
              </a>
 
@@ -199,31 +199,31 @@
 
 
      <section class="ftco-section   new_resp  ">
-      <div class="container">
-        <div class="section-title">
-          <h2 style="font-size:x-large;">COURSES WE ARE OFFERING</h2>
-        </div>
-        <div class="ftco-departments">
-          <div class="col-md-12 nav-link-wrap"
-            style="background-color: rgb(236, 234, 234); padding-top: 10px; padding-bottom: 10px; border-radius: 8px; margin-bottom: 50px;">
-            <div class="nav d-flex justify-content-between nav-pills" id="v-pills-tab" role="tablist"
-              aria-orientation="horizontal">
-              <a class=" box_text_color   nav-link ftco-animate active " id="v-pills-a-tab" data-bs-toggle="pill"
-                href="#v-pills-a1" role="tab" aria-controls="v-pills-1" aria-selected="true">Bachelor In Biblical
-                Studies (BBS )</a>
-              <a class=" box_text_color nav-link ftco-animate" id="v-pills-b-tab" data-bs-toggle="pill"
-                href="#v-pills-b1" role="tab" aria-controls="v-pills-b" aria-selected="false">Telugu Medium Bible
-                Training</a>
-              <a class=" box_text_color nav-link ftco-animate" id="v-pills-c-tab" data-bs-toggle="pill"
-                href="#v-pills-c1" role="tab" aria-controls="v-pills-c" aria-selected="false">Women Telugu Medium Bible
-                Training</a>
-            </div>
-          </div>
-          <div class="col-md-12 tab-wrap">
-            <div class="tab-content ftco-animate" id="v-pills-tabContent">
-              <div class="tab-pane fade show active" id="v-pills-a1" role="tabpanel" aria-labelledby="v-pills-a-tab">
-                <div class="row col-lg-12">
-                  <!-- <div class="col-12  ">
+       <div class="container">
+         <div class="section-title">
+           <h2 style="font-size:x-large;">COURSES WE ARE OFFERING</h2>
+         </div>
+         <div class="ftco-departments">
+           <div class="col-md-12 nav-link-wrap"
+             style="background-color: rgb(236, 234, 234); padding-top: 10px; padding-bottom: 10px; border-radius: 8px; margin-bottom: 50px;">
+             <div class="nav d-flex justify-content-between nav-pills" id="v-pills-tab" role="tablist"
+               aria-orientation="horizontal">
+               <a class=" box_text_color   nav-link ftco-animate active " id="v-pills-a-tab" data-bs-toggle="pill"
+                 href="#v-pills-a1" role="tab" aria-controls="v-pills-1" aria-selected="true">Bachelor In Biblical
+                 Studies (BBS )</a>
+               <a class=" box_text_color nav-link ftco-animate" id="v-pills-b-tab" data-bs-toggle="pill"
+                 href="#v-pills-b1" role="tab" aria-controls="v-pills-b" aria-selected="false">Telugu Medium Bible
+                 Training</a>
+               <a class=" box_text_color nav-link ftco-animate" id="v-pills-c-tab" data-bs-toggle="pill"
+                 href="#v-pills-c1" role="tab" aria-controls="v-pills-c" aria-selected="false">Women Telugu Medium Bible
+                 Training</a>
+             </div>
+           </div>
+           <div class="col-md-12 tab-wrap">
+             <div class="tab-content ftco-animate" id="v-pills-tabContent">
+               <div class="tab-pane fade show active" id="v-pills-a1" role="tabpanel" aria-labelledby="v-pills-a-tab">
+                 <div class="row col-lg-12">
+                   <!-- <div class="col-12  ">
                     <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
                       <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -249,77 +249,77 @@
                       </div>
                     </div>
                   </div> -->
-                  <h3 class="my-5 text-center">FOR BACHELOR IN BIBLICAL STUDIES (BBS) 3 YEARS AND ONE YEAR DIPLOMA
-                    COURSE</h3>
-                  <div class="container">
-                    <div class="row  ">
-                      <div class="col-4 mt-2">
-                        <p>
-                          1.Admissions
-                        </p>
-                      </div>
-                      <div class="col-8 mt-2">
-                        <p>
-                          : January & Augest of Every year 1st week
-                        </p>
-                      </div>
-                    </div>
-                    <div class="row  ">
-                      <div class="col-4 mt-2">
-                        <p>
-                          2.Medium of Instructions
-                        </p>
-                      </div>
-                      <div class="col-8 mt-2">
-                        <p>
-                          : English
-                        </p>
-                      </div>
-                    </div>
-                    <div class="row  ">
-                      <div class="col-4 mt-2">
-                        <p>
-                          3.Qualifications
-                        </p>
-                      </div>
-                      <div class="col-8 mt-2">
-                        <p>
-                          : Intermediate or above
-                        </p>
-                        <p>
-                      </div>
-                    </div>
-                    <div class="row  ">
-                      <div class="col-4 mt-2">
-                        <p>
-                          4.Duration of Course
-                        </p>
-                      </div>
-                      <div class="col-8 mt-2">
-                        <p>
-                          : Three Years (From August to December and Januanry to May)
-                        </p>
-                      </div>
-                    </div>
-                    <div class="row  ">
-                      <div class="col-4 mt-2">
-                        <p>
-                          5.Age Limit
-                        </p>
-                      </div>
-                      <div class="col-8 mt-2">
-                        <p>
-                          : Twenty years and above
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <a href="courses.html">Read More....</a>
-                </div>
-              </div>
-              <div class="tab-pane fade  " id="v-pills-b1" role="tabpanel" aria-labelledby="v-pills-a-tab">
-                <div class="row col-lg-12">
-                  <!-- <div class="col-12  ">
+                   <h3 class="my-5 text-center">FOR BACHELOR IN BIBLICAL STUDIES (BBS) 3 YEARS AND ONE YEAR DIPLOMA
+                     COURSE</h3>
+                   <div class="container">
+                     <div class="row  ">
+                       <div class="col-4 mt-2">
+                         <p>
+                           1.Admissions
+                         </p>
+                       </div>
+                       <div class="col-8 mt-2">
+                         <p>
+                           : January & Augest of Every year 1st week
+                         </p>
+                       </div>
+                     </div>
+                     <div class="row  ">
+                       <div class="col-4 mt-2">
+                         <p>
+                           2.Medium of Instructions
+                         </p>
+                       </div>
+                       <div class="col-8 mt-2">
+                         <p>
+                           : English
+                         </p>
+                       </div>
+                     </div>
+                     <div class="row  ">
+                       <div class="col-4 mt-2">
+                         <p>
+                           3.Qualifications
+                         </p>
+                       </div>
+                       <div class="col-8 mt-2">
+                         <p>
+                           : Intermediate or above
+                         </p>
+                         <p>
+                       </div>
+                     </div>
+                     <div class="row  ">
+                       <div class="col-4 mt-2">
+                         <p>
+                           4.Duration of Course
+                         </p>
+                       </div>
+                       <div class="col-8 mt-2">
+                         <p>
+                           : Three Years (From August to December and Januanry to May)
+                         </p>
+                       </div>
+                     </div>
+                     <div class="row  ">
+                       <div class="col-4 mt-2">
+                         <p>
+                           5.Age Limit
+                         </p>
+                       </div>
+                       <div class="col-8 mt-2">
+                         <p>
+                           : Twenty years and above
+                         </p>
+                       </div>
+                     </div>
+                   </div>
+                   <a href="courses.html">Read More....</a>
+                 </div>
+               </div>
+               <div class="tab-pane fade  " id="v-pills-b1" role="tabpanel" aria-labelledby="v-pills-a-tab">
+                 <div class="row col-lg-12">
+                   <!-- <div class="col-12  ">
                     <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
                       <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -345,76 +345,76 @@
                       </div>
                     </div>
                   </div> -->
-                  <h3 class="my-5 text-center">తెలుగు మీడియం 2 సం.లు, 1 సం. ము మరియు 6 నెలలు</h3>
-                  <div class="container">
-                    <div class="row  ">
-                      <div class="col-4 mt-2">
-                        <p>
-                          1. స్కూల్ యందు ప్రవేశము
-                        </p>
-                      </div>
-                      <div class="col-8 mt-2">
-                        <p>
-                          : సంవత్సరమునకు రెండు పర్యాయములు ప్రతి ఆగష్టు మరియు ప్రతి జనవరి మొదటి వారములో
-                        </p>
-                      </div>
-                    </div>
-                    <div class="row  ">
-                      <div class="col-4 mt-2">
-                        <p>
-                          2. బోధన
-                        </p>
-                      </div>
-                      <div class="col-8 mt-2">
-                        <p>
-                          : తెలుగు
-                        </p>
-                      </div>
-                    </div>
-                    <div class="row  ">
-                      <div class="col-4 mt-2">
-                        <p>
-                          3. విద్యార్థి అర్హతలు
-                        </p>
-                      </div>
-                      <div class="col-8 mt-2">
-                        <p>
-                          : 10వ తరగతి - ఆ పైన
-                        </p>
-                      </div>
-                    </div>
-                    <div class="row  ">
-                      <div class="col-4 mt-2">
-                        <p>
-                          4. బోధన సమయము
-                        </p>
-                      </div>
-                      <div class="col-8 mt-2">
-                        <p>
-                          : రెండు సంవత్సరములు (ఆగష్టు నుండి డిశంబర్ మరియు జనవరి నుండి మే)
-                        </p>
-                      </div>
-                    </div>
-                    <div class="row  ">
-                      <div class="col-4 mt-2">
-                        <p>
-                          5.వయస్సు
-                        </p>
-                      </div>
-                      <div class="col-8 mt-2">
-                        <p>
-                          : 18 సం.లు - ....
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <a href="courses.html">Read More....</a>
+                   <h3 class="my-5 text-center">తెలుగు మీడియం 2 సం.లు, 1 సం. ము మరియు 6 నెలలు</h3>
+                   <div class="container">
+                     <div class="row  ">
+                       <div class="col-4 mt-2">
+                         <p>
+                           1. స్కూల్ యందు ప్రవేశము
+                         </p>
+                       </div>
+                       <div class="col-8 mt-2">
+                         <p>
+                           : సంవత్సరమునకు రెండు పర్యాయములు ప్రతి ఆగష్టు మరియు ప్రతి జనవరి మొదటి వారములో
+                         </p>
+                       </div>
+                     </div>
+                     <div class="row  ">
+                       <div class="col-4 mt-2">
+                         <p>
+                           2. బోధన
+                         </p>
+                       </div>
+                       <div class="col-8 mt-2">
+                         <p>
+                           : తెలుగు
+                         </p>
+                       </div>
+                     </div>
+                     <div class="row  ">
+                       <div class="col-4 mt-2">
+                         <p>
+                           3. విద్యార్థి అర్హతలు
+                         </p>
+                       </div>
+                       <div class="col-8 mt-2">
+                         <p>
+                           : 10వ తరగతి - ఆ పైన
+                         </p>
+                       </div>
+                     </div>
+                     <div class="row  ">
+                       <div class="col-4 mt-2">
+                         <p>
+                           4. బోధన సమయము
+                         </p>
+                       </div>
+                       <div class="col-8 mt-2">
+                         <p>
+                           : రెండు సంవత్సరములు (ఆగష్టు నుండి డిశంబర్ మరియు జనవరి నుండి మే)
+                         </p>
+                       </div>
+                     </div>
+                     <div class="row  ">
+                       <div class="col-4 mt-2">
+                         <p>
+                           5.వయస్సు
+                         </p>
+                       </div>
+                       <div class="col-8 mt-2">
+                         <p>
+                           : 18 సం.లు - ....
+                         </p>
+                       </div>
+                     </div>
+                   </div>
+                   <a href="courses.html">Read More....</a>
 
-                </div>
-              </div>
-              <div class="tab-pane fade " id="v-pills-c1" role="tabpanel" aria-labelledby="v-pills-a-tab">
-                <div class="row col-lg-12">
-                  <!-- <div class="col-12  ">
+                 </div>
+               </div>
+               <div class="tab-pane fade " id="v-pills-c1" role="tabpanel" aria-labelledby="v-pills-a-tab">
+                 <div class="row col-lg-12">
+                   <!-- <div class="col-12  ">
                     <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
                       <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -440,79 +440,79 @@
                       </div>
                     </div>
                   </div> -->
-                  <h3 class="my-5 text-center">క్రీస్తు సంఘము - స్త్రీ ఉపదేశకులకు బోధన</h3>
-                  <div class="container">
-                    <div class="row  ">
-                      <div class="col-4 mt-2">
-                        <p>
-                          1. స్కూల్ యందు ప్రవేశము
-                        </p>
-                      </div>
-                      <div class="col-8 mt-2">
-                        <p>
-                          : ప్రతీ జనవరి మరియు ప్రతీ ఆగష్టు మొదటి వారములో
-                        </p>
-                      </div>
-                    </div>
-                    <div class="row  ">
-                      <div class="col-4 mt-2">
-                        <p>
-                          2. బోధన
-                        </p>
-                      </div>
-                      <div class="col-8 mt-2">
-                        <p>
-                          : తెలుగు
-                        </p>
-                      </div>
-                    </div>
-                    <div class="row  ">
-                      <div class="col-4 mt-2">
-                        <p>
-                          3. విద్యార్థి అర్హతలు
-                        </p>
-                      </div>
-                      <div class="col-8 mt-2">
-                        <p>
-                          : 10వ తరగతి - ఆ పైన
-                        </p>
-                      </div>
-                    </div>
-                    <div class="row  ">
-                      <div class="col-4 mt-2">
-                        <p>
-                          4. బోధన సమయము (సం.ము కోర్సు)
-                        </p>
-                      </div>
-                      <div class="col-8 mt-2">
-                        <p>
-                          : రెండు సంవత్సరములు (ఆగష్టు నుండి డిశంబర్ మరియు జనవరి నుండి మే)
-                        </p>
-                      </div>
-                    </div>
-                    <div class="row  ">
-                      <div class="col-4 mt-2">
-                        <p>
-                          5.బోధన సమయము (2 సం.ముల కోర్సు)
-                        </p>
-                      </div>
-                      <div class="col-8 mt-2">
-                        <p>
-                          : నాలుగు సెమిస్టర్స్ (అనగా ఆగష్టు నుండి డిశంబర్ మరియు జనవరి నుండి మే, క్రమముగా)
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <a href="courses.html">Read More....</a>
+                   <h3 class="my-5 text-center">క్రీస్తు సంఘము - స్త్రీ ఉపదేశకులకు బోధన</h3>
+                   <div class="container">
+                     <div class="row  ">
+                       <div class="col-4 mt-2">
+                         <p>
+                           1. స్కూల్ యందు ప్రవేశము
+                         </p>
+                       </div>
+                       <div class="col-8 mt-2">
+                         <p>
+                           : ప్రతీ జనవరి మరియు ప్రతీ ఆగష్టు మొదటి వారములో
+                         </p>
+                       </div>
+                     </div>
+                     <div class="row  ">
+                       <div class="col-4 mt-2">
+                         <p>
+                           2. బోధన
+                         </p>
+                       </div>
+                       <div class="col-8 mt-2">
+                         <p>
+                           : తెలుగు
+                         </p>
+                       </div>
+                     </div>
+                     <div class="row  ">
+                       <div class="col-4 mt-2">
+                         <p>
+                           3. విద్యార్థి అర్హతలు
+                         </p>
+                       </div>
+                       <div class="col-8 mt-2">
+                         <p>
+                           : 10వ తరగతి - ఆ పైన
+                         </p>
+                       </div>
+                     </div>
+                     <div class="row  ">
+                       <div class="col-4 mt-2">
+                         <p>
+                           4. బోధన సమయము (సం.ము కోర్సు)
+                         </p>
+                       </div>
+                       <div class="col-8 mt-2">
+                         <p>
+                           : రెండు సంవత్సరములు (ఆగష్టు నుండి డిశంబర్ మరియు జనవరి నుండి మే)
+                         </p>
+                       </div>
+                     </div>
+                     <div class="row  ">
+                       <div class="col-4 mt-2">
+                         <p>
+                           5.బోధన సమయము (2 సం.ముల కోర్సు)
+                         </p>
+                       </div>
+                       <div class="col-8 mt-2">
+                         <p>
+                           : నాలుగు సెమిస్టర్స్ (అనగా ఆగష్టు నుండి డిశంబర్ మరియు జనవరి నుండి మే, క్రమముగా)
+                         </p>
+                       </div>
+                     </div>
+                   </div>
+                   <a href="courses.html">Read More....</a>
 
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-    </section>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+       </div>
+     </section>
 
 
 
@@ -534,12 +534,12 @@
                <div class="testimonial-item">
                  <p>
                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                   As a recent graduate of the Bachelor in Biblical Studies program at P.T. School, I can confidently say that this institution has profoundly impacted my spiritual and academic journey. The curriculum is thorough and well-structured, covering a wide range of biblical texts and theological concepts. The instructors are incredibly knowledgeable and passionate, providing invaluable guidance and support throughout the program. The three years I spent here were transformative, equipping me with the skills and understanding necessary to serve effectively in ministry. I highly recommend P.T. School to anyone seeking to deepen their biblical knowledge and faith. 
+                   As a recent graduate of the Bachelor in Biblical Studies program at P.T. School, I can confidently say that this institution has profoundly impacted my spiritual and academic journey. The curriculum is thorough and well-structured, covering a wide range of biblical texts and theological concepts. The instructors are incredibly knowledgeable and passionate, providing invaluable guidance and support throughout the program. The three years I spent here were transformative, equipping me with the skills and understanding necessary to serve effectively in ministry. I highly recommend P.T. School to anyone seeking to deepen their biblical knowledge and faith.
 
                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                  </p>
                  <img src="assets/img/slide/profile.png" class="testimonial-img" alt="">
-                 <h3>John Smith                 </h3>
+                 <h3>John Smith </h3>
                  <!-- <h4>Ceo &amp; Founder</h4> -->
                </div>
              </div><!-- End testimonial item -->
@@ -567,7 +567,7 @@
                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                  </p>
                  <img src="assets/img/slide/profile.png" class="testimonial-img" alt="">
-                 <h3>David Williams                 </h3>
+                 <h3>David Williams </h3>
                  <!-- <h4>Store Owner</h4> -->
                </div>
              </div><!-- End testimonial item -->
@@ -576,7 +576,7 @@
                <div class="testimonial-item">
                  <p>
                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                   The  P.T. School program for women preachers is exceptional. The two-year course, broken into four semesters, provided a thorough grounding in biblical studies, all taught in Telugu, which made the material accessible and engaging. The school’s admission process, starting every January and August, was smooth, and the only requirement being a 10th-grade qualification made it easy for many women like me to join. This education has empowered me to serve effectively in my church and community. The program’s focus on practical ministry skills has been particularly beneficial, helping me grow both spiritually and intellectually.
+                   The P.T. School program for women preachers is exceptional. The two-year course, broken into four semesters, provided a thorough grounding in biblical studies, all taught in Telugu, which made the material accessible and engaging. The school’s admission process, starting every January and August, was smooth, and the only requirement being a 10th-grade qualification made it easy for many women like me to join. This education has empowered me to serve effectively in my church and community. The program’s focus on practical ministry skills has been particularly beneficial, helping me grow both spiritually and intellectually.
                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                  </p>
                  <img src="assets/img/slide/profile.png" class="testimonial-img" alt="">
@@ -777,119 +777,207 @@
 
    <!-- ======= Footer ======= -->
    <footer id="footer">
-      <div class="footer-top" style="background-color:rgb(242 252 255);">
+      <div class="footer-top" style="background-color: rgb(242 252 255)">
         <div class="container">
           <div class="row">
- 
-            <div class=" col-lg-5 col-md-5 col-6 d-flex flex-column justify-content-center">
+            <div
+              class="col-lg-5 col-md-5 col-6 d-flex flex-column justify-content-center"
+            >
               <!-- <div class="footer-info d-none d-xl-block">
                 <a href="index.php" class="logo me-auto "><img src="assets/img/slide/logo_trans.png" style="height:150px;" alt=""></a>
  
               </div> -->
-              <div class="footer-info d-block  ">
-                <a href="index.php" class="logo me-auto "><img src="assets/img/slide/logo_trans.png" class="img-fluid" alt=""></a>
- 
+              <div class="footer-info d-block">
+                <a href="index.php" class="logo me-auto"
+                  ><img
+                    src="assets/img/slide/logo_trans.png"
+                    class="img-fluid"
+                    alt=""
+                /></a>
               </div>
             </div>
-            <div class="  col-lg-3 col-md-3 col-6 footer-links">
+            <div class="col-lg-3 col-md-3 col-6 footer-links">
               <h4>Useful Links</h4>
               <ul>
- 
                 <li>
- 
- 
                   <a href="index.php">Home</a>
                 </li>
                 <li>
- 
                   <a href="about.html">About</a>
                 </li>
                 <li>
- 
                   <a href="courses.html">Courses</a>
                 </li>
                 <li>
- 
                   <a href="#"> Applictions</a>
                 </li>
                 <li>
- 
                   <a href=" pdf.php">PDF</a>
                 </li>
                 <li>
- 
                   <a href="contact.html">Contact Us</a>
                 </li>
- 
- 
               </ul>
             </div>
- 
- 
- 
-            <div class="  col-lg-4 col-md-4 footer-newsletter footerbgcolor">
+
+            <div class="col-lg-4 col-md-4 footer-newsletter footerbgcolor">
               <h4>Contact us</h4>
               <p class="mt-2">
-                <span class="phone_email"> <strong>Phone:</strong></span> <span class="mini_text">+91 9849031095, &nbsp; +91 9441754711 </span>
-                <br>
-                <span class="phone_email"> <strong>Email:</strong></span> <span class="mini_text">
-                  kedarisetti_2000@yahoo.com</span> <br>
+                <span class="phone_email"> <strong>Phone:</strong></span>
+                <span class="mini_text"
+                  >+91 9849031095, &nbsp; +91 9441754711
+                </span>
+                <br />
+                <span class="phone_email"> <strong>Email:</strong></span>
+                <span class="mini_text"> kedarisetti_2000@yahoo.com</span>
+                <br />
               </p>
               <p class="mt-4 mini_text">
-               RAVINDRA  NAGAR,<br>
-               TURANGI,<br>
-    
-                KAKINADA-533016, <br>
+                RAVINDRA NAGAR,<br />
+                TURANGI,<br />
+
+                KAKINADA-533016, <br />
                 Andhra Pradesh, India
-                <br><br>
+                <br /><br />
               </p>
               <div class="social-links mt-3">
-                <a href=" " target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href=" " target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href=" " target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href=" " target="_blank" class="youtube"><i class="bx bxl-youtube"></i></a>
- 
+                <a href=" " target="_blank" class="facebook"
+                  ><i class="bx bxl-facebook"></i
+                ></a>
+                <a href=" " target="_blank" class="instagram"
+                  ><i class="bx bxl-instagram"></i
+                ></a>
+                <a href=" " target="_blank" class="twitter"
+                  ><i class="bx bxl-twitter"></i
+                ></a>
+                <a href=" " target="_blank" class="youtube"
+                  ><i class="bx bxl-youtube"></i
+                ></a>
               </div>
- 
             </div>
- 
           </div>
         </div>
       </div>
- 
-      <div class="footer-area-bottom theme-bg">
+
+       
+
+
+      
+      <div
+        class="footer-area-bottom theme-bg"
+        style="background-color: #01a084"
+      >
         <div class="container">
-          <div class="row  pt-4">
-            <div class="col-xl-8 col-lg-9 col-md-12 col-12">
-              <div class="footer-widget__copyright">
-                <p class="mini_text" style="color:#ffffff"> ©2024 P.T.School . All Rights Reserved. Designed &
-                  Developed by <a href="https://bhavicreations.com/" target="_blank" style="text-decoration: none;color:#ffffff">Bhavi
-                    Creations</a></p>
-              </div>
-            </div>
-            <div class="col-xl-4 col-lg-3 col-md-12 col-12">
-              <div class="footer-widget__copyright-info info-direction ">
-                <p class="mini_text"><a href="terms.html" style="text-decoration: none;color:#ffffff">Terms & conditions
+          <div class="row pt-4">
+            <div class="col-md-6 col-12">
+              <div class="footer-widget__copyright-info info-direction">
+                <p class="last_text">
+                  <a
+                    href="terms.html"
+                    style="text-decoration: none; color: #ffffff"
+                    >Terms & conditions
                   </a>
-                  <a href="privacy.html" style="text-decoration: none;color:#ffffff"> Privacy & policy</a>
+                  <a
+                    href="privacy.html"
+                    style="text-decoration: none; color: #ffffff"
+                  >
+                    Privacy & policy</a
+                  >
                 </p>
               </div>
             </div>
+
+            <div class="col-md-6 col-12 second_divv_end_brand">
+              <div
+                class="footer-widget__copyright-info info-direction d-flex flex-row justify-content-end align-items-center"
+              >
+                <a
+                  href="https://bhavicreations.com/"
+                  target="_blank"
+                  style="
+                    text-decoration: none;
+                    color: #ffffff;
+                    display: flex;
+                    align-items: center;
+                  "
+                >
+                  <p class="mini_text last_text mb-0">Branding By @</p>
+                  <img
+                    src="assets/img/bhavi_logo/Bhavi_Branding_Stamp.png"
+                    class="img-fluid brand_image"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
-    <!-- End Footer -->
 
-    <!-- WhatsApp link -->
-    <a
-      href="https://api.whatsapp.com/send?phone=919849031095"
-      style="color: #fff"
-      class="whatsapp-link"
-      target="_blank"
-    >
-      <i class="fab fa-whatsapp"></i>
-    </a>
+      <style>
+        @media (min-width: 1200px) {
+          .second_divv_end_brand {
+            padding-left: 35%;
+            margin-top: -10px;
+          }
+
+          .brand_image {
+            width: 23%;
+            margin-top: 0%;
+            margin-left: 5px;
+          }
+        }
+
+        @media (min-width: 992px) and (max-width: 1200px) {
+          .second_divv_end_brand {
+            padding-left: 32%;
+            margin-top: -10px;
+          }
+
+          .brand_image {
+            width: 23%;
+            margin-top: 0%;
+            margin-left: 5px;
+          }
+        }
+
+        @media (max-width: 768px) {
+          .second_divv_end_brand {
+            padding-left: 3%;
+            margin-top: -10px;
+          }
+
+          .brand_image {
+            width: 12%;
+            margin-top: 0%;
+            margin-left: 5px;
+          }
+        }
+
+        @media (min-width: 768px) and (max-width: 992px) {
+          .second_divv_end_brand {
+            padding-left: 23%;
+            margin-top: -10px;
+          }
+
+          .brand_image {
+            width: 23%;
+            margin-top: 0%;
+            margin-left: 5px;
+          }
+        }
+      </style>
+    </footer>
+   <!-- End Footer -->
+
+   <!-- WhatsApp link -->
+   <a
+     href="https://api.whatsapp.com/send?phone=919849031095"
+     style="color: #fff"
+     class="whatsapp-link"
+     target="_blank">
+     <i class="fab fa-whatsapp"></i>
+   </a>
 
    <!--     
    <div class="loader">
@@ -1210,7 +1298,7 @@
 
 
 
-    
+
 
 
    <div id="preloader"></div>
