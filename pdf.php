@@ -171,7 +171,7 @@ $pdf_result = $conn->query($pdf_sql);
                <br />
              </p>
              <p class="mt-4 mini_text">
-             7-144,<br />  
+             7-114,<br />  
                RAVINDRA NAGAR,<br />
                4th STREET,<br />
                TURANGI,<br />
