@@ -284,7 +284,7 @@
                        </div>
                        <div class="col-8 mt-2">
                          <p>
-                           : Intermediate or above
+                           : For Telugu 10th Class & For English  Intermediate or above
                          </p>
                          <p>
                        </div>
@@ -309,7 +309,7 @@
                        </div>
                        <div class="col-8 mt-2">
                          <p>
-                           : Twenty years and above
+                           : NO AGE LIMIT
                          </p>
                        </div>
                      </div>
