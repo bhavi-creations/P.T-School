@@ -400,7 +400,7 @@
                  <div class="tab-pane fade " id="v-pills-c1" role="tabpanel" aria-labelledby="v-pills-a-tab">
                    <div class="row col-lg-12">
 
-                     <h3 class="my-5 text-center">క్రీస్తు సంఘము - స్త్రీ ఉపదేశకులకు బోధన</h3>
+                     <h3 class="my-5 text-center">క్రీస్తు సంఘము - స్త్రీ ఉపదేశకులకు బోధన </h3>
                      <div class="container">
                        <div class="row  ">
                          <div class="col-4 mt-2">
