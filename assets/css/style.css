@@ -1932,3 +1932,15 @@ section {
 }
 
  
+.can{
+}
+
+ 
+
+.nav-pills .nav-link{
+  letter-spacing: -.8px !important;
+  font-size: 15px; 
+  padding: 8px 8px !important;
+}
+
+ 

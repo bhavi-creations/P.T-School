@@ -212,9 +212,9 @@
                style="background-color: rgb(236, 234, 234); padding-top: 10px; padding-bottom: 10px; border-radius: 8px; margin-bottom: 50px;">
                <div class="nav d-flex justify-content-between nav-pills" id="v-pills-tab" role="tablist"
                  aria-orientation="horizontal">
-                 <div class="col-md-3">
+                 <div class="col-md-3 ">
 
-                   <a class=" box_text_color   nav-link ftco-animate active " id="v-pills-a-tab" data-bs-toggle="pill"
+                   <a class="    nav-link ftco-animate active " id="v-pills-a-tab" data-bs-toggle="pill"
                      href="#v-pills-a1" role="tab" aria-controls="v-pills-1" aria-selected="true">
                      Bachelor In Biblical
                      Studies (BBS)
@@ -238,17 +238,17 @@
                      Training
                    </a>
                  </div>
-
                  <div class="col-md-3">
+
                    <a class=" box_text_color nav-link ftco-animate" id="v-pills-d-tab" data-bs-toggle="pill"
                      href="#v-pills-d1" role="tab" aria-controls="v-pills-d" aria-selected="false">
-                     Monthly 5 days Bible
-                     Training
+                     Monthly 5 Days Bible Training
                    </a>
+                   </a>
+
                  </div>
                </div>
              </div>
-
 
 
              <div class="col-md-12 tab-wrap">
@@ -476,8 +476,8 @@
                        class="text-center mt-4">ప్రీచర్స్ ట్రైనింగ్ స్కూలువారు 2002 సం॥న ఈ ట్రైనింగ్ కోర్సును ప్రారంభించడమైనది. మా ఉద్దేశము మతశాఖలలో పనిచేయుచున్న పాస్టర్సును వారి భార్యలకు క్రీస్తు సంఘ సత్యమును నేర్పి వారిని క్రీస్తు సంమములవారుగా తయారుచేయుటకు ఇది మీకు ఒక మంచి అవకాశము. ఇందు కులముగాని, మతశాఖ భేదముగాని, వయస్సుగాని మేము పాటించము, అందరికి సమానముగా నెలకు రూ.600..
                      </p>
                      <a href="courses.html">Read More....</a>
-                     </div>
-                     </div>
+                   </div>
+                 </div>
        </section>
 
        <!-- End Departments Section -->

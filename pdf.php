@@ -68,7 +68,7 @@ $pdf_result = $conn->query($pdf_sql);
                             <li><a href="calvin.html">CALVIN WOMEN Telugu Medium Bible Training</a></li>
                         </ul>
                     </li>
-                    <li><a class="nav-link scrollto" href="pdf.html">PDF</a></li>
+                    <li><a class="nav-link scrollto tin" href="pdf.html">PDF</a></li>
                     <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -240,6 +240,9 @@ $pdf_result = $conn->query($pdf_sql);
      </div>
 
      <style>
+        .tin {
+       text-decoration: underline;
+     }
        @media (min-width: 1200px) {
          .second_divv_end_brand {
            padding-left: 35%;
