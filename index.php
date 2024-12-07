@@ -86,9 +86,9 @@
              </ul>
            </li>
 
-            <li><a class="nav-link scrollto  " href="sunday.html">sunday worship</a></li>
+            <li><a class="nav-link scrollto " href="sunday.html">sunday worship</a></li>
 
-           <li><a class="nav-link scrollto  " href="pdf.php">PDF</a></li>
+           <li><a class="nav-link scrollto " href="pdf.php">PDF</a></li>
 
            <li><a class="nav-link scrollto " href="contact.html">Contact</a></li>
          
