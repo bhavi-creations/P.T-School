@@ -68,6 +68,9 @@ $pdf_result = $conn->query($pdf_sql);
                             <li><a href="calvin.html">CALVIN WOMEN Telugu Medium Bible Training</a></li>
                         </ul>
                     </li>
+
+            <li><a class="nav-link scrollto " href="sunday.html">sunday worship</a></li>
+
                     <li><a class="nav-link scrollto tin" href="pdf.html">PDF</a></li>
                     <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
                 </ul>
