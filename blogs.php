@@ -13,7 +13,7 @@ if ($conn->connect_error) {
 
 // Fetch blog data
 $sql = "SELECT * FROM blog";
-$result = $conn->query($sql);
+// $result = $conn->query($sql);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -348,6 +348,9 @@ $result = $conn->query($sql);
                <li>
                  <a href="contact.html">Contact Us</a>
                </li>
+               <li>
+                   <a href="sunday.html"> Sunday Worship</a>
+                 </li>
              </ul>
            </div>
 

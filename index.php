@@ -86,12 +86,12 @@
              </ul>
            </li>
 
-            <li><a class="nav-link scrollto " href="sunday.html">sunday worship</a></li>
+           <li><a class="nav-link scrollto " href="sunday.html">sunday worship</a></li>
 
            <li><a class="nav-link scrollto " href="pdf.php">PDF</a></li>
 
            <li><a class="nav-link scrollto " href="contact.html">Contact</a></li>
-         
+
 
          </ul>
          <i class="bi bi-list mobile-nav-toggle"></i>
@@ -777,6 +777,9 @@
                  </li>
                  <li>
                    <a href="contact.html">Contact Us</a>
+                 </li>
+                 <li>
+                   <a href="sunday.html"> Sunday Worship</a>
                  </li>
                </ul>
              </div>

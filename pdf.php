@@ -159,6 +159,9 @@ $pdf_result = $conn->query($pdf_sql);
                <li>
                  <a href="contact.html">Contact Us</a>
                </li>
+               <li>
+                   <a href="sunday.html"> Sunday Worship</a>
+                 </li>
              </ul>
            </div>
 
