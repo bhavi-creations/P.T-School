@@ -178,7 +178,7 @@
                women. This is known as the Calvin Women Bible Training. This
                course is designed for one year and two years. Preachers need to
                have their wife trained to help her husband interact with the
-               Indian culture between men and women.
+               Indian culture between men and women.,
              </p> <a href="about.html">
                <p>Read more...</p>
              </a>
