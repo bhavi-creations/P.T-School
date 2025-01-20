@@ -71,7 +71,7 @@ $pdf_result = $conn->query($pdf_sql);
 
             <li><a class="nav-link scrollto " href="sunday.html">sunday worship</a></li>
 
-                    <li><a class="nav-link scrollto tin" href="pdf.html">PDF</a></li>
+                    <li><a class="nav-link scrollto tin" href="pdf.html">KRUPAWAKYAM</a></li>
                     <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -154,7 +154,7 @@ $pdf_result = $conn->query($pdf_sql);
                  <a href="#"> Applictions</a>
                </li>
                <li>
-                 <a href=" pdf.php">PDF</a>
+                 <a href=" pdf.php">Krupawakyam</a>
                </li>
                <li>
                  <a href="contact.html">Contact Us</a>

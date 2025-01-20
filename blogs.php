@@ -343,7 +343,7 @@ $sql = "SELECT * FROM blog";
                  <a href="#"> Applictions</a>
                </li>
                <li>
-                 <a href=" pdf.php">PDF</a>
+                 <a href=" pdf.php">Krupawakyam</a>
                </li>
                <li>
                  <a href="contact.html">Contact Us</a>
