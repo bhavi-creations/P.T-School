@@ -28,7 +28,24 @@
 
    <link href="assets/css/style.css" rel="stylesheet">
 
+   <!-- count  -->
+   <script src="https://www.gstatic.com/firebasejs/10.7.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.2/firebase-database.js"></script>
+    
+
    <style>
+     .visitor-counter {
+       position: fixed;
+       bottom: 10px;
+       left: 10px;
+       background: rgba(0, 0, 0, 0.7);
+       color: white;
+       padding: 10px 15px;
+       border-radius: 5px;
+       font-family: Arial, sans-serif;
+       font-size: 16px;
+     }
+
      .aboutus {
        width: 80%;
        margin: 20px auto;
@@ -1247,6 +1264,34 @@
      </style>
 
 
+
+<div class="visitor-counter">Visitors: <span id="visitor-count"></span></div>
+
+<script>
+    // Your Firebase configuration (Replace with your own)
+    const firebaseConfig = {
+        apiKey: "YOUR_API_KEY",
+        authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+        databaseURL: "https://YOUR_PROJECT_ID.firebaseio.com",
+        projectId: "YOUR_PROJECT_ID",
+        storageBucket: "YOUR_PROJECT_ID.appspot.com",
+        messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+        appId: "YOUR_APP_ID"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const database = firebase.database();
+    const counterRef = database.ref("visitorCount");
+
+    // Increment visitor count when a new visitor arrives
+    counterRef.transaction((count) => (count || 0) + 1);
+
+    // Listen for changes and update UI
+    counterRef.on("value", (snapshot) => {
+        document.getElementById("visitor-count").innerText = snapshot.val();
+    });
+</script>
 
 
 
