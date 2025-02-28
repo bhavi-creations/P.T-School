@@ -664,6 +664,12 @@
            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
              <div class="swiper-wrapper">
 
+             <div class=" swiper-slide">
+                 <div class="testimonial-item">
+                   <img src="assets/img/slide/13.png" class="img-fluid">
+                 </div>
+               </div>
+
                <div class="swiper-slide">
                  <div class="testimonial-item">
                    <img src="assets/img/slide/1.png" class="img-fluid">
@@ -1264,34 +1270,48 @@
      </style>
 
 
+<style>
+    .visitor-counter {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      padding: 10px 15px;
+      border-radius: 8px;
+      font-size: 16px;
+      font-family: Arial, sans-serif;
+      z-index: 1000;
+  }
+</style>
 
-<div class="visitor-counter">Visitors: <span id="visitor-count"></span></div>
+
+<!-- Counter Display -->
+<div class="visitor-counter">
+  Visitors: <span id="visitorCount">Loading...</span>
+</div>
 
 <script>
-    // Your Firebase configuration (Replace with your own)
-    const firebaseConfig = {
-        apiKey: "YOUR_API_KEY",
-        authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-        databaseURL: "https://YOUR_PROJECT_ID.firebaseio.com",
-        projectId: "YOUR_PROJECT_ID",
-        storageBucket: "YOUR_PROJECT_ID.appspot.com",
-        messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-        appId: "YOUR_APP_ID"
-    };
+  // Check if the user has already visited in this session
+  if (!sessionStorage.getItem("visited")) {
+      // Get stored visitor count or set to 0
+      let visitCount = localStorage.getItem("visitCount") || 0;
 
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    const database = firebase.database();
-    const counterRef = database.ref("visitorCount");
+      // Convert to number and increase count
+      visitCount = Number(visitCount) + 1;
 
-    // Increment visitor count when a new visitor arrives
-    counterRef.transaction((count) => (count || 0) + 1);
+      // Save updated count back to localStorage
+      localStorage.setItem("visitCount", visitCount);
 
-    // Listen for changes and update UI
-    counterRef.on("value", (snapshot) => {
-        document.getElementById("visitor-count").innerText = snapshot.val();
-    });
+      // Mark this session as visited (to prevent counting refreshes)
+      sessionStorage.setItem("visited", "true");
+  }
+
+  // Display visitor count
+  document.getElementById("visitorCount").textContent = localStorage.getItem("visitCount");
 </script>
+    
+
 
 
 
