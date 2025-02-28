@@ -1272,44 +1272,46 @@
 
 <style>
     .visitor-counter {
-      position: fixed;
-      bottom: 20px;
-      left: 20px;
-      background-color: rgba(0, 0, 0, 0.8);
-      color: white;
-      padding: 10px 15px;
-      border-radius: 8px;
-      font-size: 16px;
-      font-family: Arial, sans-serif;
-      z-index: 1000;
-  }
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        padding: 10px 15px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-family: Arial, sans-serif;
+        z-index: 1000;
+    }
+    .animation_eye {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
 </style>
-
 
 <!-- Counter Display -->
 <div class="visitor-counter">
-  Visitors: <span id="visitorCount">Loading...</span>
+    <img src="assets/img/bhavi_logo/eye.png" alt="" class="animation_eye"> 
+    Visitors: <span id="visitorCount">Loading...</span>
 </div>
 
 <script>
-  // Check if the user has already visited in this session
-  if (!sessionStorage.getItem("visited")) {
-      // Get stored visitor count or set to 0
-      let visitCount = localStorage.getItem("visitCount") || 0;
+    // Check if the user is a new visitor (not switching between pages)
+    if (!sessionStorage.getItem("visitedSession")) {
+        let visitCount = localStorage.getItem("visitCount") || 0; // Get stored visitor count
 
-      // Convert to number and increase count
-      visitCount = Number(visitCount) + 1;
+        visitCount = Number(visitCount) + 1; // Increase count
 
-      // Save updated count back to localStorage
-      localStorage.setItem("visitCount", visitCount);
+        localStorage.setItem("visitCount", visitCount); // Save updated count
 
-      // Mark this session as visited (to prevent counting refreshes)
-      sessionStorage.setItem("visited", "true");
-  }
+        sessionStorage.setItem("visitedSession", "true"); // Mark this session as visited
+    }
 
-  // Display visitor count
-  document.getElementById("visitorCount").textContent = localStorage.getItem("visitCount");
+    // Display the visitor count
+    document.getElementById("visitorCount").textContent = localStorage.getItem("visitCount");
 </script>
+
     
 
 

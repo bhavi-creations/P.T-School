@@ -1953,3 +1953,9 @@ section {
  .meeed_space{
   margin-top:130px;
  }
+
+
+ .animation_eye {
+  filter: invert(5);
+  
+ }
