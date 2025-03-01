@@ -30,8 +30,8 @@
 
    <!-- count  -->
    <script src="https://www.gstatic.com/firebasejs/10.7.2/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/10.7.2/firebase-database.js"></script>
-    
+   <script src="https://www.gstatic.com/firebasejs/10.7.2/firebase-database.js"></script>
+
 
    <style>
      .visitor-counter {
@@ -664,7 +664,7 @@
            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
              <div class="swiper-wrapper">
 
-             <div class=" swiper-slide">
+               <div class=" swiper-slide">
                  <div class="testimonial-item">
                    <img src="assets/img/slide/13.png" class="img-fluid">
                  </div>
@@ -1269,43 +1269,164 @@
        }
      </style>
 
+     <style>
+       .visitor-counter {
+         position: fixed;
+         bottom: 14px;
+         left: 45px;
+         background-color: rgba(0, 0, 0, 0.8);
+         color: white;
+         padding-top: 10px;
+         padding-right: 20px;
+         padding-bottom: 10px;
+         padding-left: 40px;
+         /* padding: 10px 20px  10px;  */
+         border-radius: 8px;
+         font-size: 16px;
+         font-family: Arial, sans-serif;
+         display: flex;
+         align-items: center;
+         gap: 10px;
+         /* Space between elements */
+         z-index: 1000;
+       }
 
-<!-- <style>
-    .visitor-counter {
-      position: fixed;
-      bottom: 20px;
-      left: 20px;
-      background-color: rgba(0, 0, 0, 0.8);
-      color: white;
-      padding: 10px 15px;
-      border-radius: 8px;
-      font-size: 16px;
-      font-family: Arial, sans-serif;
-      z-index: 1000;
-  }
-</style> -->
+       /* Fixed Eye Animation in Bottom-Left Corner */
+       .eye-lid {
+         position: fixed;
+         bottom: 20px;
+         /* Distance from bottom */
+         left: 49px;
+         /* Distance from left */
+
+         background-color: rgb(0, 0, 0);
+         border-radius: 50%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         box-shadow: 0 3px 0 1px rgba(0, 0, 0, 0.2);
+         width: 30px;
+         height: 30px;
+         z-index: 1000;
+         /* Ensures it's above other elements */
+       }
+
+       .eye {
+         background-color: lightgreen;
+         border-radius: 50%;
+         transform: translate3d(0, 0, 0) rotate(90deg);
+         width: 24px;
+         height: 24px;
+         animation: eye 5s infinite;
+       }
+
+       @keyframes eye {
+
+         12%,
+         25% {
+           width: 20px;
+           height: 22px;
+         }
+
+         37%,
+         50% {
+           width: 14px;
+           height: 26px;
+         }
+
+         63%,
+         75% {
+           width: 20px;
+           height: 21px;
+         }
+
+         87% {
+           width: 20px;
+           height: 20px;
+         }
+       }
+
+       .cornea {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         background-color: rgb(0, 0, 0);
+         border-radius: 50%;
+         width: 10px;
+         height: 10px;
+         animation: eye-color 5s infinite;
+       }
+
+       @keyframes eye-color {
+
+         63%,
+         75% {
+           background-color: rgb(8, 20, 96);
+         }
+       }
+
+       .white-pupil {
+         position: absolute;
+         top: 9%;
+         left: 10%;
+         border-radius: 50%;
+         background-color: #ffbc03;
+         width: 4px;
+         height: 4px;
+       }
 
 
-<!-- Counter Display -->
- <!-- <div class="visitor-counter "> <img src="assets/img/bhavi_logo/eye.png" alt=""> 
-
-  Visitors: <span id="visits">Loading...</span>
-   d <span id="visits"></span> times.</h1> 
-</div>
-
-<script>
- 
-  if (!sessionStorage.getItem("visited")) {
-      let visitCount = localStorage.getItem("visitCount") || 0;
-      visitCount = Number(visitCount) + 1;
- localStorage.setItem("visitCount", visitCount);
-      sessionStorage.setItem("visited", "true");
-  }
 
 
-  document.getElementById("visitorCount").textContent = localStorage.getItem("visitCount");
-</script>  -->
+       .eye {
+         width: 20px;
+         height: 20px;
+       }
 
+       .cornea {
+         width: 8px;
+         height: 8px;
+       }
+
+       .white-pupil {
+         width: 3px;
+         height: 3px;
+       }
+     </style>
+     <!-- Counter Display -->
+     <div class="visitor-counter ">
+
+       <!-- From Uiverse.io by FWDJc -->
+       <div class="eye-lid">
+         <div class="eye">
+           <div class="cornea">
+             <div class="white-pupil"></div>
+           </div>
+         </div>
+       </div>
+       Visitors: <span id="visitorCount">Loading...</span>
+     </div>
+
+     <script>
+       // Check if the user has already visited in this session
+       if (!sessionStorage.getItem("visited")) {
+         // Get stored visitor count or set to 0
+         let visitCount = localStorage.getItem("visitCount") || 0;
+
+         // Convert to number and increase count
+         visitCount = Number(visitCount) + 1;
+
+         // Save updated count back to localStorage
+         localStorage.setItem("visitCount", visitCount);
+
+         // Mark this session as visited (to prevent counting refreshes)
+         sessionStorage.setItem("visited", "true");
+       }
+
+       // Display visitor count
+       document.getElementById("visitorCount").textContent = localStorage.getItem("visitCount");
+     </script>
 
 
 
