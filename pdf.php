@@ -502,7 +502,7 @@ $pdf_result = $conn->query($pdf_sql);
            </div>
          </div>
        </div>
-       Visitors: <span id="visitorCount">Loading...</span>
+       :<span id="visitorCount">Loading...</span>
      </div>
 
      <script>
