@@ -593,7 +593,7 @@
          <div class="row">
            <div class="col-12">
              <video width="100%" controls>
-               <source src="assets/img/videos/preachers.mp4" type="video/mp4">
+               <source src="assets/img/videos/preachers_training_school_telugu.mp4" type="video/mp4">
                Your browser does not support the video tag.
              </video>
            </div>
